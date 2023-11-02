@@ -1,3 +1,4 @@
+#load packages
 library(vegan)
 library(ggplot2)
 library(ggpubr)
@@ -6,13 +7,14 @@ library(dplyr)
 library(reshape2)
 library(RColorBrewer)
 
-nut_enrich_asv_table <- read.delim("C:/Users/patty/Downloads/nut_enrich_asv_table.txt", row.names=1, header=T)
-meta<-read.delim("C:/Users/patty/Downloads/nut_enrich_16S_map.txt", header=T)
+#read in metadata and asv table
+nut_enrich_asv_table <- read.delim("~/GitHub/Bullfrog-nutrient-enrichment/asv_table.txt", row.names=1, header=T)
+meta<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
 
-nut_rare<-rrarefy(t(nut_enrich_asv_table), sample=3000)
+#rarefy data 
+nut_rare<-rrarefy(t(asv_table), sample=3000)
 
-
-
+#calculate PCoA based on BC similarity
 ko_pcoa<-capscale(nut_rare  ~ 1, distance='bray')
 
 #pull out x/y coordinates
