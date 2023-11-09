@@ -58,4 +58,14 @@ qiime tools export --input-path phylogeny-align-to-tree-mafft-fasttree/tree.qza 
  #export OTU table to biom then to text file
  qiime tools export --input-path nut_enrich_table-deblur.qza --output-path asv_table
  biom convert -i asv_table/feature-table.biom --to-tsv -o asv_table.txt
+ 
+ 
+ #assign taxonomy with sklearn and silva database
+qiime feature-classifier classify-sklearn   --i-classifier silva-138-99-515-806-nb-classifier.qza   --i-reads  nut_enrich_rep-seqs-deblur.qza   --o-classification nut_enrich_taxonomy.qza 
+
+ #export taxonomy file
+ qiime tools export --input-path taxonomy.qzv --output-path taxonomy
+ 
+#make stacked bar visualizations
+qiime taxa barplot --o-visualization taxa_plot  --m-metadata-file nut_enrich_16S_map.txt  --i-taxonomy nut_enrich_taxonomy.qza --i-table nut_enrich_table-deblur.qza
  ```
