@@ -22,11 +22,9 @@ qiime demux emp-single \
 qiime quality-filter q-score \
 --i-demux  nut_enrich_demux.qza \
 --o-filtered-sequences  nut_enrich_demux-filtered.qza \
---o-filter-stats  nut_enrich_demux-filter-stats.qza 
- #--p-min-length-fraction 0.6 \
- # --p-max-ambiguous 15
- # --p-min-quality 1 \
- #--p-quality-window 20 \
+--o-filter-stats  nut_enrich_demux-filter-stats.qza \
+ --p-min-quality 30 
+
  
  #export filter stats
   qiime tools export --input-path  nut_enrich_demux-filter-stats.qza --output-path filt_stats
