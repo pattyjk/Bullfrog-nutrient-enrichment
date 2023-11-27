@@ -361,13 +361,31 @@ ggplot(sig_krusk, aes(Genus, Type, fill=rel_abun))+
 
 ###############
 #picrust data
-not_norm<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/picrust_no_norm/KO_metagenome_out/pred_metagenome_unstrat.tsv/pred_metagenome_unstrat.tsv", row.names=1)
-norm<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/picrust_norm/KO_metagenome_out/pred_metagenome_unstrat.tsv/pred_metagenome_unstrat.tsv", row.names=1)
+not_norm<-read.delim("Bullfrog-nutrient-enrichment/picrust_output/picrust_no_norm/KO_metagenome_out/pred_metagenome_unstrat.tsv/pred_metagenome_unstrat.tsv", row.names=1)
+norm<-read.delim("Bullfrog-nutrient-enrichment/picrust_output/picrust_norm/KO_metagenome_out/pred_metagenome_unstrat.tsv/pred_metagenome_unstrat.tsv", row.names=1)
 
 #divide table
 copy_no<-not_norm/norm
 
+#remove NAs from dividing by zero
+copy_no<-na.omit(copy_no)
 
 #calculate average
 colavgs<-as.data.frame(colMeans(copy_no))
 
+#append sample name to table
+colavgs$SampleID<-row.names(colavgs)
+
+#read in append metadata to averages
+meta<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
+colavgs<-merge(colavgs, meta, by='SampleID')
+
+#plot
+library(ggplot2)
+ggplot(colavgs, aes(Type, `colMeans(copy_no)`, fill=Type))+
+  geom_boxplot()+
+  theme_bw()
+
+#check stats
+summary(aov(colavgs$`colMeans(copy_no)`~colavgs$Type))
+#not significant
