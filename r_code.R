@@ -14,7 +14,7 @@ meta<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt",
 #filter out chloroplast/mitochondria
 asv_table<-asv_table[-which(row.names(asv_table)=='180ed1cd4fafc390ffc300108ccf648e' | row.names(asv_table)=='7827defa226f025727dd0d1866cb5bba' | row.names(asv_table)=='94fc02cb626b227105e3b90cc5900802'),]
 
-#look at sequenceing depth
+#look at sequencing depth
 colSums(asv_table)
 #2573 is the lowest good depth, lose only 3 samples
 
@@ -241,7 +241,7 @@ asv_table<-asv_table[-which(row.names(asv_table)=='180ed1cd4fafc390ffc300108ccf6
 asv_table<-rrarefy(t(asv_table), sample=2573)
 asv_table<-as.data.frame(t(asv_table))
 
-#subset ASV table to only include ASVs that amtch database
+#subset ASV table to only include ASVs that match database
 inhib_tb<-asv_table[row.names(asv_table) %in% inhibitory$V1,]
 
 #calculate percentage of ASVs that are inhibitory
