@@ -8,6 +8,7 @@ library(reshape2)
 library(RColorBrewer)
 
 #read in metadata and asv table
+set.seed(515)
 asv_table <- read.delim("~/GitHub/Bullfrog-nutrient-enrichment/asv_table.txt", row.names=1, header=T)
 meta<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
 
@@ -43,8 +44,8 @@ ko.coords<-merge(ko.coords, meta, by.x='SampleID', by.y='SampleID')
 #12.2
 
 #plot PCoA
-ggplot(ko.coords, aes(MDS1, MDS2, color=Type))+
-  geom_point(aes(size=2))+
+ggplot(ko.coords, aes(MDS1, MDS2, color=Type, size=LogBd))+
+  geom_point()+
   #geom_text()+
   scale_color_manual(values = c('#f58231', '#4363d8'))+
   theme_bw()+
@@ -84,7 +85,10 @@ names(larv.alpha2)<-"Shannon"
 larv.alph<-cbind(larv.alph, larv.alpha2)
 
 t.test(larv.alph$Shannon, larv.alph$Type2)
-t = 25.796, df = 41, p-value < 2.2e-16
+#t = 25.796, df = 41, p-value < 2.2e-16
+
+t.test(larv.alph$Bd_load, larv.alph$Type2)
+#t = 4.8376, df = 41, p-value = 1.888e-05
 
 #plot richness
 ggplot(larv.alph, aes(Type, Richness, fill=Type))+
@@ -212,13 +216,18 @@ ggplot(eco_m, aes(Carbon2, value, fill=Type))+
   coord_flip()+
   theme_bw()+
 geom_boxplot()+
-  scale_fill_manual(values = c('#f58231', '#4363d8'))
+  scale_fill_manual(values = c('#f58231', '#4363d8'))+
+  ylab("Optical density")+
+  xlab('')
 
 #calculate Kruskal-wallis test to determine carbon sources that have different activity
 library(ggpubr)
 kruskal_results_eco<-as.data.frame(compare_means(value ~ Type, group.by = 'Carbon', p.adjust.method='BH', method = 'kruskal.test', data=eco_m))
 #7/31 don't signifcantly differ
 
+#make inhib onl table
+kruk_inhib<-kruskal_results_eco[which(kruskal_results_eco$p.adj<0.05),]
+dim(kruk_inhib)
 
 #####Percent inhibitory
 ########################
@@ -275,9 +284,9 @@ ggplot(inhib_tb2[-which(inhib_tb2$per_inhib2>50),], aes(Type, per_inhib2, fill=T
   ylab("Percent Inhibitory towards Bd")
 
 #calculate stats
-TukeyHSD(aov(inhib_tb2$per_inhib ~inhib_tb2$Type))
-#                       diff        lwr       upr    p adj
-#Reference-Enriched 0.05785815 -0.0455522 0.1612685 0.264877
+t.test(as.numeric(inhib_tb2$per_inhib), inhib_tb2$Type)
+# 
+
 
 
 ###Calculate ASVs that respond (+/-) to n-enrichment
@@ -389,3 +398,37 @@ ggplot(colavgs, aes(Type, `colMeans(copy_no)`, fill=Type))+
 #check stats
 summary(aov(colavgs$`colMeans(copy_no)`~colavgs$Type))
 #not significant
+
+#####################Antibiotic resistance
+library(ggplot2)
+library(reshape2)
+
+#read in data
+ab_data<-read.delim('Bullfrog-nutrient-enrichment/ab_data.txt', header=T)
+
+#reshape data for plotting
+ab_m<-melt(ab_data)
+
+#plot
+ggplot(ab_m, aes(variable, value, fill=Type))+
+  geom_boxplot()+
+  theme_bw()+
+  scale_fill_manual(values=c('orange', 'blue'))+
+  coord_flip()+
+xlab("")+
+  ylab('Percent of culturable community resistant')
+
+#test for homogeneity of variance
+bartlett.test(ab_m$value, ab_m$Type)
+#Bartlett's K-squared = 7.7698, df = 1, p-value = 0.005313
+bartlett.test(ab_m$value, ab_m$variable)
+#Bartlett's K-squared = 17.575, df = 4, p-value = 0.001494
+
+#make new variable to test sig. with t-test
+ab_m$Type2<-paste(ab_m$Type, ab_m$variable, sep="_")
+
+#t-test
+pairwise.t.test(ab_m$value, ab_m$Type2, p.adjust.method = 'hochberg')
+#Trimethopram ref/enri: 0.00451
+#Sulfa ref/enri: 2.1e-06
+#chloram ref/enri: 3.5e-08
