@@ -44,7 +44,7 @@ ko.coords<-merge(ko.coords, meta, by.x='SampleID', by.y='SampleID')
 #12.2
 
 #plot PCoA
-ggplot(ko.coords, aes(MDS1, MDS2, color=Type, size=LogBd))+
+pcoa<-ggplot(ko.coords, aes(MDS1, MDS2, color=Type, size=LogBd))+
   geom_point()+
   #geom_text()+
   scale_color_manual(values = c('#f58231', '#4363d8'))+
@@ -91,12 +91,13 @@ t.test(larv.alph$Bd_load, larv.alph$Type2)
 #t = 4.8376, df = 41, p-value = 1.888e-05
 
 #plot richness
-ggplot(larv.alph, aes(Type, Richness, fill=Type))+
+richness<-ggplot(larv.alph, aes(Type, Richness, fill=Type))+
   geom_jitter()+
   geom_boxplot()+
   theme_bw()+
   xlab("")+
   coord_flip()+
+  guides(fill="none")+
   ylab("sOTU Richness")+
   scale_fill_manual(values = c('#f58231', '#4363d8'))
 
@@ -154,12 +155,14 @@ eco_shan$Pond<-row.names(eco_shan)
 names(eco_shan)<-c("Shannon", "Pond")
 eco_shan$Type<-c("Reference", "Reference", "Enriched", "Enriched", "Enriched", "Enriched", "Enriched", "Reference", "Reference", "Reference")
 
-ggplot(eco_shan, aes(Type, Shannon, fill=Type))+
+shannon<-ggplot(eco_shan, aes(Type, Shannon, fill=Type))+
   geom_boxplot()+
   theme_bw()+
+  coord_flip()+
   geom_jitter()+
+  guides(fill="none")+
   scale_fill_manual(values = c('#f58231', '#4363d8'))+
-  ylab("Shanon Diversity")+
+  ylab("Shanon Diversity- EcoPlate")+
   xlab("")
 
 t.test(eco_shan$Shannon ~ eco_shan$Type)
@@ -196,8 +199,8 @@ pca_coords<-as.data.frame(nut_enrich_pca$x)
 pca_coords$SampleID<-row.names(pca_coords)
 pca_coords<-merge(pca_coords, meta, by.x='SampleID', by.y='Pond', all.y=F)
 
-ggplot(pca_coords, aes(PC1, PC2, color=Type))+
-  geom_point()+
+pca<-ggplot(pca_coords, aes(PC1, PC2, color=Type))+
+  geom_point(size=3.7)+
  # geom_label()+
   scale_color_manual(values = c('#f58231', '#4363d8'))+
   theme_bw()
@@ -233,7 +236,7 @@ dim(kruk_inhib)
 ########################
 
 #calculate with BD database/vsearch, done in linux shell
-vsearch -usearch_global rep_seqs/dna-sequences.fasta -db antiBd_db/AmphibBac_Inhibitory_2023.2r.fasta --strand plus --id 0.99 --blast6out bullfrog_out.txt
+#vsearch -usearch_global rep_seqs/dna-sequences.fasta -db antiBd_db/AmphibBac_Inhibitory_2023.2r.fasta --strand plus --id 0.99 --blast6out bullfrog_out.txt
 
 #read in results from vsearch clustering against AmphiBac database
 inhibitory<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/bullfrog_out.txt", header=F)
@@ -272,11 +275,12 @@ inhib_tb2$SampleID<-row.names(inhib_tb2)
 inhib_tb2<-merge(inhib_tb2, meta, by='SampleID')
 inhib_tb2$per_inhib2<-inhib_tb2$per_inhib*100
 
-#plot per species
+#plot per type
 library(ggplot2)
-ggplot(inhib_tb2[-which(inhib_tb2$per_inhib2>50),], aes(Type, per_inhib2, fill=Type))+
+percent_inhib<-ggplot(inhib_tb2[-which(inhib_tb2$per_inhib2>50),], aes(Type, per_inhib2, fill=Type))+
   geom_jitter()+
   geom_boxplot()+
+  guides(fill="none")+
   theme_bw()+
   xlab("")+
   coord_flip()+
@@ -284,7 +288,7 @@ ggplot(inhib_tb2[-which(inhib_tb2$per_inhib2>50),], aes(Type, per_inhib2, fill=T
   ylab("Percent Inhibitory towards Bd")
 
 #calculate stats
-t.test(as.numeric(inhib_tb2$per_inhib), inhib_tb2$Type)
+#t.test(as.numeric(inhib_tb2$per_inhib), inhib_tb2$Type)
 # 
 
 
@@ -365,10 +369,7 @@ ggplot(sig_krusk, aes(Genus, Type, fill=rel_abun))+
   theme_bw()+
   scale_fill_gradient2(low = "#075AFF", mid = "#FFFFCC", high = "#FF0000")
 
-
-
-
-###############
+##############
 #picrust data
 not_norm<-read.delim("Bullfrog-nutrient-enrichment/picrust_output/picrust_no_norm/KO_metagenome_out/pred_metagenome_unstrat.tsv/pred_metagenome_unstrat.tsv", row.names=1)
 norm<-read.delim("Bullfrog-nutrient-enrichment/picrust_output/picrust_norm/KO_metagenome_out/pred_metagenome_unstrat.tsv/pred_metagenome_unstrat.tsv", row.names=1)
@@ -410,7 +411,7 @@ ab_data<-read.delim('Bullfrog-nutrient-enrichment/ab_data.txt', header=T)
 ab_m<-melt(ab_data)
 
 #plot
-ggplot(ab_m, aes(variable, value, fill=Type))+
+ab_dat<-ggplot(ab_m, aes(variable, value, fill=Type))+
   geom_boxplot()+
   theme_bw()+
   scale_fill_manual(values=c('orange', 'blue'))+
@@ -432,3 +433,7 @@ pairwise.t.test(ab_m$value, ab_m$Type2, p.adjust.method = 'hochberg')
 #Trimethopram ref/enri: 0.00451
 #Sulfa ref/enri: 2.1e-06
 #chloram ref/enri: 3.5e-08
+
+#make master plot for paper
+library(ggpubr)
+ggarrange(richness, pcoa, percent_inhib, shannon, pca, ab_dat, common.legend = T, legend='right')
