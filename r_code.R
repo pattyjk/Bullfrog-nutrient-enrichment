@@ -207,6 +207,7 @@ pca<-ggplot(pca_coords, aes(PC1, PC2, color=Type))+
 
 #plot carbon source development
 library(reshape2)
+meta<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
 ecolog_data <- read.delim("~/GitHub/Bullfrog-nutrient-enrichment/ecolog_data_nowat.txt")
 eco_m<-melt(ecolog_data)
 eco_m<-merge(eco_m, meta, by.x='variable', by.y='Pond', all.x=T, all.y=F)
@@ -437,3 +438,6 @@ pairwise.t.test(ab_m$value, ab_m$Type2, p.adjust.method = 'hochberg')
 #make master plot for paper
 library(ggpubr)
 ggarrange(richness, pcoa, percent_inhib, shannon, pca, ab_dat, common.legend = T, legend='right')
+
+##########Spearman correlations for Ecoplate data
+
