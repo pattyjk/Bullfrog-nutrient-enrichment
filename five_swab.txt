@@ -1,0 +1,311 @@
+Carbon	OD590	Pond
+Pyruvic Acid Methyl Ester	1.095666667	P1
+Tween 40	1.964	P1
+Tween 80	1.224666667	P1
+a-Cyclodextrin	0.303	P1
+Glycogen	0.925	P1
+D-Cellobiose	1.635333333	P1
+a-D-Lactose	1.162333333	P1
+ß-Methyl-D-Glucoside	1.616	P1
+D-Xylose	0.765	P1
+i-Erythritol	0.43	P1
+D-Mannitol	1.773	P1
+N-Accetyl-D-Glucosamine	1.981333333	P1
+D-Glucosaminic Acid	0.745666667	P1
+Glucose-1-Phosphate	0.66	P1
+D,L-a-Glycerol Phosphate	0.322	P1
+D-Galactonic Acid y-Lactone	1.187	P1
+D-Galacturonic Acid	1.466	P1
+2-Hydroxy Benzoid Acid	0.318	P1
+4-Hydroxy Benzoid Acid	1.483	P1
+y-Amino Butyric Acid	1.734	P1
+Itaconic Acid	1.057333333	P1
+a-Keto Butyric Acid	0.117666667	P1
+D-Malic Acid	2.244	P1
+L-Arginine	2.313666667	P1
+L-Asparagine	2.047333333	P1
+L-Phenylalanine	0.388666667	P1
+L-Serine	1.527333333	P1
+L-Threonine	0.255	P1
+Glycyl-L-Glutamic Acid	0.024333333	P1
+Phenethylamine	0.963666667	P1
+Putrescine	2.017666667	P1
+Pyruvic Acid Methyl Ester	1.365	P10
+Tween 40	2.413	P10
+Tween 80	1.692666667	P10
+a-Cyclodextrin	0.289	P10
+Glycogen	1.166666667	P10
+D-Cellobiose	2.191	P10
+a-D-Lactose	1.217333333	P10
+ß-Methyl-D-Glucoside	2.416	P10
+D-Xylose	1.388	P10
+i-Erythritol	0.475333333	P10
+D-Mannitol	1.984	P10
+N-Accetyl-D-Glucosamine	2.003666667	P10
+D-Glucosaminic Acid	0.715666667	P10
+Glucose-1-Phosphate	0.389	P10
+D,L-a-Glycerol Phosphate	0.64	P10
+D-Galactonic Acid y-Lactone	1.674666667	P10
+D-Galacturonic Acid	2.189666667	P10
+2-Hydroxy Benzoid Acid	0.711333333	P10
+4-Hydroxy Benzoid Acid	2.011333333	P10
+y-Amino Butyric Acid	1.746666667	P10
+Itaconic Acid	0.463666667	P10
+a-Keto Butyric Acid	0.165	P10
+D-Malic Acid	2.191666667	P10
+L-Arginine	2.704333333	P10
+L-Asparagine	2.550333333	P10
+L-Phenylalanine	0.060666667	P10
+L-Serine	2.015	P10
+L-Threonine	0.104	P10
+Glycyl-L-Glutamic Acid	0.108666667	P10
+Phenethylamine	1.35	P10
+Putrescine	1.757	P10
+Pyruvic Acid Methyl Ester	1.48666	P2
+Tween 40	1.963266667	P2
+Tween 80	1.9551	P2
+a-Cyclodextrin	0.701026667	P2
+Glycogen	2.65286	P2
+D-Cellobiose	2.27164	P2
+a-D-Lactose	1.870166667	P2
+ß-Methyl-D-Glucoside	2.569233333	P2
+D-Xylose	0.787593333	P2
+i-Erythritol	1.326266667	P2
+D-Mannitol	2.196506667	P2
+N-Accetyl-D-Glucosamine	2.448366667	P2
+D-Glucosaminic Acid	1.60426	P2
+Glucose-1-Phosphate	1.19168	P2
+D,L-a-Glycerol Phosphate	0.61152	P2
+D-Galactonic Acid y-Lactone	1.91002	P2
+D-Galacturonic Acid	2.276866667	P2
+2-Hydroxy Benzoid Acid	0.016986667	P2
+4-Hydroxy Benzoid Acid	1.986133333	P2
+y-Amino Butyric Acid	2.521866667	P2
+Itaconic Acid	1.611446667	P2
+a-Keto Butyric Acid	0.137853333	P2
+D-Malic Acid	2.333053333	P2
+L-Arginine	1.847953333	P2
+L-Asparagine	2.92432	P2
+L-Phenylalanine	0.44786	P2
+L-Serine	2.1413	P2
+L-Threonine	0.068273333	P2
+Glycyl-L-Glutamic Acid	0.19502	P2
+Phenethylamine	2.269353333	P2
+Putrescine	1.93256	P2
+Pyruvic Acid Methyl Ester	1.473333333	P3
+Tween 40	2.198	P3
+Tween 80	1.674	P3
+a-Cyclodextrin	0.613666667	P3
+Glycogen	2.616	P3
+D-Cellobiose	2.377	P3
+a-D-Lactose	0.961333333	P3
+ß-Methyl-D-Glucoside	1.646666667	P3
+D-Xylose	1.339666667	P3
+i-Erythritol	0.688666667	P3
+D-Mannitol	2.148666667	P3
+N-Accetyl-D-Glucosamine	1.793	P3
+D-Glucosaminic Acid	1.129333333	P3
+Glucose-1-Phosphate	0.954666667	P3
+D,L-a-Glycerol Phosphate	0.534666667	P3
+D-Galactonic Acid y-Lactone	1.454333333	P3
+D-Galacturonic Acid	1.588	P3
+2-Hydroxy Benzoid Acid	0.038333333	P3
+4-Hydroxy Benzoid Acid	2.117	P3
+y-Amino Butyric Acid	2.257666667	P3
+Itaconic Acid	1.463333333	P3
+a-Keto Butyric Acid	0.167666667	P3
+D-Malic Acid	1.808333333	P3
+L-Arginine	1.949666667	P3
+L-Asparagine	2.572	P3
+L-Phenylalanine	0.62	P3
+L-Serine	2.040333333	P3
+L-Threonine	0.010666667	P3
+Glycyl-L-Glutamic Acid	0.430666667	P3
+Phenethylamine	1.364333333	P3
+Putrescine	1.924666667	P3
+Pyruvic Acid Methyl Ester	0.996	P4
+Tween 40	0.778666667	P4
+Tween 80	1.050666667	P4
+a-Cyclodextrin	0.465	P4
+Glycogen	1.189	P4
+D-Cellobiose	1.376	P4
+a-D-Lactose	0.538	P4
+ß-Methyl-D-Glucoside	1.486666667	P4
+D-Xylose	1.145666667	P4
+i-Erythritol	0.306	P4
+D-Mannitol	1.338333333	P4
+N-Accetyl-D-Glucosamine	1.228666667	P4
+D-Glucosaminic Acid	0.68	P4
+Glucose-1-Phosphate	0.361333333	P4
+D,L-a-Glycerol Phosphate	0.193333333	P4
+D-Galactonic Acid y-Lactone	1.068	P4
+D-Galacturonic Acid	0.848	P4
+2-Hydroxy Benzoid Acid	0.952333333	P4
+4-Hydroxy Benzoid Acid	1.230666667	P4
+y-Amino Butyric Acid	1.556666667	P4
+Itaconic Acid	1.028	P4
+a-Keto Butyric Acid	0.39	P4
+D-Malic Acid	1.224666667	P4
+L-Arginine	2.059666667	P4
+L-Asparagine	1.845	P4
+L-Phenylalanine	0.277666667	P4
+L-Serine	1.286333333	P4
+L-Threonine	0.449333333	P4
+Glycyl-L-Glutamic Acid	0.308666667	P4
+Phenethylamine	1.970666667	P4
+Putrescine	1.619	P4
+Pyruvic Acid Methyl Ester	1.744333333	P5
+Tween 40	1.922333333	P5
+Tween 80	1.542333333	P5
+a-Cyclodextrin	0.670666667	P5
+Glycogen	2.144	P5
+D-Cellobiose	2.822666667	P5
+a-D-Lactose	1.916666667	P5
+ß-Methyl-D-Glucoside	2.216333333	P5
+D-Xylose	1.409333333	P5
+i-Erythritol	0.216333333	P5
+D-Mannitol	2.231666667	P5
+N-Accetyl-D-Glucosamine	2.076666667	P5
+D-Glucosaminic Acid	1.389666667	P5
+Glucose-1-Phosphate	1.304666667	P5
+D,L-a-Glycerol Phosphate	0.395666667	P5
+D-Galactonic Acid y-Lactone	1.289666667	P5
+D-Galacturonic Acid	1.545333333	P5
+2-Hydroxy Benzoid Acid	0.097666667	P5
+4-Hydroxy Benzoid Acid	2.067333333	P5
+y-Amino Butyric Acid	2.487666667	P5
+Itaconic Acid	1.304	P5
+a-Keto Butyric Acid	0.056	P5
+D-Malic Acid	2.273	P5
+L-Arginine	3.226	P5
+L-Asparagine	2.812333333	P5
+L-Phenylalanine	0.302333333	P5
+L-Serine	2.444	P5
+L-Threonine	0.131	P5
+Glycyl-L-Glutamic Acid	0.272666667	P5
+Phenethylamine	2.255	P5
+Putrescine	2.215666667	P5
+Pyruvic Acid Methyl Ester	1.956	P6
+Tween 40	2.793333333	P6
+Tween 80	2.752	P6
+a-Cyclodextrin	0.854	P6
+Glycogen	2.030333333	P6
+D-Cellobiose	2.821	P6
+a-D-Lactose	0.691	P6
+ß-Methyl-D-Glucoside	2.467666667	P6
+D-Xylose	1.029666667	P6
+i-Erythritol	1.164333333	P6
+D-Mannitol	2.246666667	P6
+N-Accetyl-D-Glucosamine	2.488	P6
+D-Glucosaminic Acid	1.566333333	P6
+Glucose-1-Phosphate	0.986333333	P6
+D,L-a-Glycerol Phosphate	0.539333333	P6
+D-Galactonic Acid y-Lactone	1.976333333	P6
+D-Galacturonic Acid	2.747	P6
+2-Hydroxy Benzoid Acid	0.030666667	P6
+4-Hydroxy Benzoid Acid	2.635	P6
+y-Amino Butyric Acid	2.903666667	P6
+Itaconic Acid	0.512666667	P6
+a-Keto Butyric Acid	0.122333333	P6
+D-Malic Acid	2.766333333	P6
+L-Arginine	2.857666667	P6
+L-Asparagine	2.932333333	P6
+L-Phenylalanine	0.316666667	P6
+L-Serine	2.048666667	P6
+L-Threonine	0.255	P6
+Glycyl-L-Glutamic Acid	0.321	P6
+Phenethylamine	2.03	P6
+Putrescine	2.947	P6
+Pyruvic Acid Methyl Ester	1.721666667	P7
+Tween 40	2.159333333	P7
+Tween 80	1.841	P7
+a-Cyclodextrin	0.711666667	P7
+Glycogen	2.426666667	P7
+D-Cellobiose	1.723	P7
+a-D-Lactose	0.901	P7
+ß-Methyl-D-Glucoside	1.816	P7
+D-Xylose	1.471333333	P7
+i-Erythritol	0.574333333	P7
+D-Mannitol	2.781	P7
+N-Accetyl-D-Glucosamine	2.046	P7
+D-Glucosaminic Acid	0.949666667	P7
+Glucose-1-Phosphate	0.803	P7
+D,L-a-Glycerol Phosphate	0.622333333	P7
+D-Galactonic Acid y-Lactone	1.208666667	P7
+D-Galacturonic Acid	1.638666667	P7
+2-Hydroxy Benzoid Acid	1.118666667	P7
+4-Hydroxy Benzoid Acid	2.438666667	P7
+y-Amino Butyric Acid	2.77	P7
+Itaconic Acid	1.519666667	P7
+a-Keto Butyric Acid	0.085333333	P7
+D-Malic Acid	2.565333333	P7
+L-Arginine	2.955333333	P7
+L-Asparagine	2.605	P7
+L-Phenylalanine	0.499666667	P7
+L-Serine	2.026333333	P7
+L-Threonine	0.046666667	P7
+Glycyl-L-Glutamic Acid	0.144	P7
+Phenethylamine	2.345666667	P7
+Putrescine	1.977333333	P7
+Pyruvic Acid Methyl Ester	1.517	P8
+Tween 40	2.003333333	P8
+Tween 80	1.995	P8
+a-Cyclodextrin	0.715333333	P8
+Glycogen	2.707	P8
+D-Cellobiose	2.318	P8
+a-D-Lactose	1.908333333	P8
+ß-Methyl-D-Glucoside	2.621666667	P8
+D-Xylose	0.803666667	P8
+i-Erythritol	1.353333333	P8
+D-Mannitol	2.241333333	P8
+N-Accetyl-D-Glucosamine	2.498333333	P8
+D-Glucosaminic Acid	1.637	P8
+Glucose-1-Phosphate	1.216	P8
+D,L-a-Glycerol Phosphate	0.624	P8
+D-Galactonic Acid y-Lactone	1.949	P8
+D-Galacturonic Acid	2.323333333	P8
+2-Hydroxy Benzoid Acid	0.017333333	P8
+4-Hydroxy Benzoid Acid	2.026666667	P8
+y-Amino Butyric Acid	2.573333333	P8
+Itaconic Acid	1.644333333	P8
+a-Keto Butyric Acid	0.140666667	P8
+D-Malic Acid	2.380666667	P8
+L-Arginine	1.885666667	P8
+L-Asparagine	2.984	P8
+L-Phenylalanine	0.457	P8
+L-Serine	2.185	P8
+L-Threonine	0.069666667	P8
+Glycyl-L-Glutamic Acid	0.199	P8
+Phenethylamine	2.315666667	P8
+Putrescine	1.972	P8
+Pyruvic Acid Methyl Ester	1.70445	P9
+Tween 40	2.13774	P9
+Tween 80	1.82259	P9
+a-Cyclodextrin	0.70455	P9
+Glycogen	2.4024	P9
+D-Cellobiose	1.70577	P9
+a-D-Lactose	0.89199	P9
+ß-Methyl-D-Glucoside	1.79784	P9
+D-Xylose	1.45662	P9
+i-Erythritol	0.56859	P9
+D-Mannitol	2.75319	P9
+N-Accetyl-D-Glucosamine	2.02554	P9
+D-Glucosaminic Acid	0.94017	P9
+Glucose-1-Phosphate	0.79497	P9
+D,L-a-Glycerol Phosphate	0.61611	P9
+D-Galactonic Acid y-Lactone	1.19658	P9
+D-Galacturonic Acid	1.62228	P9
+2-Hydroxy Benzoid Acid	1.10748	P9
+4-Hydroxy Benzoid Acid	2.41428	P9
+y-Amino Butyric Acid	2.7423	P9
+Itaconic Acid	1.50447	P9
+a-Keto Butyric Acid	0.08448	P9
+D-Malic Acid	2.53968	P9
+L-Arginine	2.92578	P9
+L-Asparagine	2.57895	P9
+L-Phenylalanine	0.49467	P9
+L-Serine	2.00607	P9
+L-Threonine	0.0462	P9
+Glycyl-L-Glutamic Acid	0.14256	P9
+Phenethylamine	2.32221	P9
+Putrescine	1.95756	P9

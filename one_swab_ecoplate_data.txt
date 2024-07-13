@@ -1,0 +1,1441 @@
+OD590	CarbonSource	IndivID
+0.046	Water	158
+0.04	ß-Methyl-D-Glucoside	158
+0.051	D-Galactonic Acid y-Lactone	158
+0.041	L-Arginine	158
+0.042	Water	158
+0.053	ß-Methyl-D-Glucoside	158
+0.043	D-Galactonic Acid y-Lactone	158
+0.046	L-Arginine	158
+0.056	Water	158
+0.042	ß-Methyl-D-Glucoside	158
+0.077	D-Galactonic Acid y-Lactone	158
+0.051	L-Arginine	158
+0.044	Pyruvic Acid Methyl Ester	158
+0.681	D-Xylose	158
+0.057	D-Galacturonic Acid	158
+0.038	L-Asparagine	158
+0.102	Pyruvic Acid Methyl Ester	158
+0.054	D-Xylose	158
+0.045	D-Galacturonic Acid	158
+0.04	L-Asparagine	158
+0.049	Pyruvic Acid Methyl Ester	158
+0.059	D-Xylose	158
+0.043	D-Galacturonic Acid	158
+0.04	L-Asparagine	158
+0.061	Tween 40	158
+0.038	i-Erythritol	158
+0.064	2-Hydroxy Benzoid Acid	158
+0.039	L-Phenylalanine	158
+0.282	Tween 40	158
+0.069	i-Erythritol	158
+0.087	2-Hydroxy Benzoid Acid	158
+0.043	L-Phenylalanine	158
+0.049	Tween 40	158
+0.041	i-Erythritol	158
+0.102	2-Hydroxy Benzoid Acid	158
+0.043	L-Phenylalanine	158
+0.059	Tween 80	158
+0.049	D-Mannitol	158
+0.048	4-Hydroxy Benzoid Acid	158
+0.039	L-Serine	158
+0.056	Tween 80	158
+0.053	D-Mannitol	158
+0.063	4-Hydroxy Benzoid Acid	158
+0.038	L-Serine	158
+0.051	Tween 80	158
+0.049	D-Mannitol	158
+0.051	4-Hydroxy Benzoid Acid	158
+0.045	L-Serine	158
+0.057	a-Cyclodextrin	158
+0.041	N-Accetyl-D-Glucosamine	158
+0.076	y-Amino Butyric Acid	158
+0.045	L-Threonine	158
+0.077	a-Cyclodextrin	158
+0.04	N-Accetyl-D-Glucosamine	158
+0.047	y-Amino Butyric Acid	158
+0.046	L-Threonine	158
+0.039	a-Cyclodextrin	158
+0.041	N-Accetyl-D-Glucosamine	158
+0.05	y-Amino Butyric Acid	158
+0.045	L-Threonine	158
+0.173	Glycogen	158
+0.046	D-Glucosaminic Acid	158
+0.052	Itaconic Acid	158
+0.041	Glycyl-L-Glutamic Acid	158
+0.06	Glycogen	158
+0.039	D-Glucosaminic Acid	158
+0.04	Itaconic Acid	158
+0.042	Glycyl-L-Glutamic Acid	158
+0.054	Glycogen	158
+0.044	D-Glucosaminic Acid	158
+0.097	Itaconic Acid	158
+0.065	Glycyl-L-Glutamic Acid	158
+0.061	D-Cellobiose	158
+0.041	Glucose-1-Phosphate	158
+0.047	a-Keto Butyric Acid	158
+0.038	Phenethylamine	158
+0.037	D-Cellobiose	158
+0.04	Glucose-1-Phosphate	158
+0.041	a-Keto Butyric Acid	158
+0.039	Phenethylamine	158
+0.045	D-Cellobiose	158
+0.042	Glucose-1-Phosphate	158
+0.055	a-Keto Butyric Acid	158
+0.058	Phenethylamine	158
+0.098	a-D-Lactose	158
+0.042	D,L-a-Glycerol Phosphate	158
+0.048	D-Malic Acid	158
+0.113	Putrescine	158
+0.039	a-D-Lactose	158
+0.039	D,L-a-Glycerol Phosphate	158
+0.042	D-Malic Acid	158
+0.046	Putrescine	158
+0.044	a-D-Lactose	158
+0.044	D,L-a-Glycerol Phosphate	158
+0.075	D-Malic Acid	158
+0.196	Putrescine	158
+0.043	Water	159
+0.04	ß-Methyl-D-Glucoside	159
+0.049	D-Galactonic Acid y-Lactone	159
+0.041	L-Arginine	159
+0.043	Water	159
+0.042	ß-Methyl-D-Glucoside	159
+0.048	D-Galactonic Acid y-Lactone	159
+0.043	L-Arginine	159
+0.046	Water	159
+0.041	ß-Methyl-D-Glucoside	159
+0.052	D-Galactonic Acid y-Lactone	159
+0.041	L-Arginine	159
+0.042	Pyruvic Acid Methyl Ester	159
+0.048	D-Xylose	159
+0.06	D-Galacturonic Acid	159
+0.049	L-Asparagine	159
+0.07	Pyruvic Acid Methyl Ester	159
+0.045	D-Xylose	159
+0.852	D-Galacturonic Acid	159
+0.042	L-Asparagine	159
+0.115	Pyruvic Acid Methyl Ester	159
+0.047	D-Xylose	159
+0.042	D-Galacturonic Acid	159
+0.042	L-Asparagine	159
+0.043	Tween 40	159
+0.038	i-Erythritol	159
+0.045	2-Hydroxy Benzoid Acid	159
+0.039	L-Phenylalanine	159
+0.045	Tween 40	159
+0.042	i-Erythritol	159
+0.042	2-Hydroxy Benzoid Acid	159
+0.038	L-Phenylalanine	159
+0.053	Tween 40	159
+0.041	i-Erythritol	159
+0.065	2-Hydroxy Benzoid Acid	159
+0.042	L-Phenylalanine	159
+0.048	Tween 80	159
+0.04	D-Mannitol	159
+0.041	4-Hydroxy Benzoid Acid	159
+0.038	L-Serine	159
+0.047	Tween 80	159
+0.04	D-Mannitol	159
+0.043	4-Hydroxy Benzoid Acid	159
+0.042	L-Serine	159
+0.053	Tween 80	159
+0.046	D-Mannitol	159
+0.059	4-Hydroxy Benzoid Acid	159
+0.043	L-Serine	159
+0.051	a-Cyclodextrin	159
+0.04	N-Accetyl-D-Glucosamine	159
+0.294	y-Amino Butyric Acid	159
+0.041	L-Threonine	159
+0.04	a-Cyclodextrin	159
+0.038	N-Accetyl-D-Glucosamine	159
+1.771	y-Amino Butyric Acid	159
+0.042	L-Threonine	159
+0.1	a-Cyclodextrin	159
+1.149	N-Accetyl-D-Glucosamine	159
+0.056	y-Amino Butyric Acid	159
+0.041	L-Threonine	159
+0.049	Glycogen	159
+0.042	D-Glucosaminic Acid	159
+0.058	Itaconic Acid	159
+0.071	Glycyl-L-Glutamic Acid	159
+2.425	Glycogen	159
+0.041	D-Glucosaminic Acid	159
+0.046	Itaconic Acid	159
+0.042	Glycyl-L-Glutamic Acid	159
+0.241	Glycogen	159
+0.042	D-Glucosaminic Acid	159
+0.065	Itaconic Acid	159
+0.054	Glycyl-L-Glutamic Acid	159
+0.049	D-Cellobiose	159
+0.038	Glucose-1-Phosphate	159
+0.042	a-Keto Butyric Acid	159
+0.043	Phenethylamine	159
+0.856	D-Cellobiose	159
+0.042	Glucose-1-Phosphate	159
+0.048	a-Keto Butyric Acid	159
+0.042	Phenethylamine	159
+0.065	D-Cellobiose	159
+0.907	Glucose-1-Phosphate	159
+0.059	a-Keto Butyric Acid	159
+0.072	Phenethylamine	159
+0.051	a-D-Lactose	159
+0.045	D,L-a-Glycerol Phosphate	159
+0.138	D-Malic Acid	159
+0.041	Putrescine	159
+0.775	a-D-Lactose	159
+0.049	D,L-a-Glycerol Phosphate	159
+0.04	D-Malic Acid	159
+0.052	Putrescine	159
+0.045	a-D-Lactose	159
+0.069	D,L-a-Glycerol Phosphate	159
+0.096	D-Malic Acid	159
+0.092	Putrescine	159
+0.045	Water	160
+0.043	ß-Methyl-D-Glucoside	160
+0.325	D-Galactonic Acid y-Lactone	160
+0.06	L-Arginine	160
+0.041	Water	160
+0.046	ß-Methyl-D-Glucoside	160
+0.046	D-Galactonic Acid y-Lactone	160
+0.047	L-Arginine	160
+0.049	Water	160
+0.048	ß-Methyl-D-Glucoside	160
+0.063	D-Galactonic Acid y-Lactone	160
+0.048	L-Arginine	160
+0.043	Pyruvic Acid Methyl Ester	160
+0.048	D-Xylose	160
+0.044	D-Galacturonic Acid	160
+0.074	L-Asparagine	160
+0.045	Pyruvic Acid Methyl Ester	160
+0.102	D-Xylose	160
+0.051	D-Galacturonic Acid	160
+0.056	L-Asparagine	160
+0.064	Pyruvic Acid Methyl Ester	160
+0.055	D-Xylose	160
+0.073	D-Galacturonic Acid	160
+0.049	L-Asparagine	160
+0.044	Tween 40	160
+0.04	i-Erythritol	160
+0.208	2-Hydroxy Benzoid Acid	160
+0.106	L-Phenylalanine	160
+0.056	Tween 40	160
+0.061	i-Erythritol	160
+0.069	2-Hydroxy Benzoid Acid	160
+0.439	L-Phenylalanine	160
+0.081	Tween 40	160
+0.052	i-Erythritol	160
+0.265	2-Hydroxy Benzoid Acid	160
+0.077	L-Phenylalanine	160
+0.048	Tween 80	160
+0.043	D-Mannitol	160
+0.107	4-Hydroxy Benzoid Acid	160
+0.044	L-Serine	160
+0.051	Tween 80	160
+0.168	D-Mannitol	160
+0.06	4-Hydroxy Benzoid Acid	160
+0.096	L-Serine	160
+0.064	Tween 80	160
+0.053	D-Mannitol	160
+0.197	4-Hydroxy Benzoid Acid	160
+0.075	L-Serine	160
+0.041	a-Cyclodextrin	160
+0.044	N-Accetyl-D-Glucosamine	160
+0.066	y-Amino Butyric Acid	160
+0.076	L-Threonine	160
+0.042	a-Cyclodextrin	160
+0.08	N-Accetyl-D-Glucosamine	160
+0.082	y-Amino Butyric Acid	160
+0.07	L-Threonine	160
+0.139	a-Cyclodextrin	160
+0.05	N-Accetyl-D-Glucosamine	160
+0.181	y-Amino Butyric Acid	160
+0.066	L-Threonine	160
+0.053	Glycogen	160
+0.046	D-Glucosaminic Acid	160
+0.056	Itaconic Acid	160
+0.049	Glycyl-L-Glutamic Acid	160
+0.06	Glycogen	160
+0.085	D-Glucosaminic Acid	160
+0.198	Itaconic Acid	160
+0.386	Glycyl-L-Glutamic Acid	160
+0.132	Glycogen	160
+0.042	D-Glucosaminic Acid	160
+0.206	Itaconic Acid	160
+0.109	Glycyl-L-Glutamic Acid	160
+0.059	D-Cellobiose	160
+0.042	Glucose-1-Phosphate	160
+0.052	a-Keto Butyric Acid	160
+0.044	Phenethylamine	160
+0.043	D-Cellobiose	160
+0.051	Glucose-1-Phosphate	160
+0.201	a-Keto Butyric Acid	160
+0.052	Phenethylamine	160
+0.103	D-Cellobiose	160
+0.085	Glucose-1-Phosphate	160
+0.188	a-Keto Butyric Acid	160
+0.175	Phenethylamine	160
+0.043	a-D-Lactose	160
+0.052	D,L-a-Glycerol Phosphate	160
+0.177	D-Malic Acid	160
+0.086	Putrescine	160
+0.055	a-D-Lactose	160
+0.049	D,L-a-Glycerol Phosphate	160
+0.047	D-Malic Acid	160
+0.085	Putrescine	160
+0.07	a-D-Lactose	160
+0.083	D,L-a-Glycerol Phosphate	160
+0.131	D-Malic Acid	160
+0.183	Putrescine	160
+0.044	Water	161
+0.039	ß-Methyl-D-Glucoside	161
+0.051	D-Galactonic Acid y-Lactone	161
+0.049	L-Arginine	161
+0.04	Water	161
+0.046	ß-Methyl-D-Glucoside	161
+0.09	D-Galactonic Acid y-Lactone	161
+0.054	L-Arginine	161
+0.042	Water	161
+0.043	ß-Methyl-D-Glucoside	161
+0.06	D-Galactonic Acid y-Lactone	161
+0.052	L-Arginine	161
+0.046	Pyruvic Acid Methyl Ester	161
+0.044	D-Xylose	161
+0.042	D-Galacturonic Acid	161
+0.055	L-Asparagine	161
+0.101	Pyruvic Acid Methyl Ester	161
+0.045	D-Xylose	161
+1.302	D-Galacturonic Acid	161
+0.068	L-Asparagine	161
+0.038	Pyruvic Acid Methyl Ester	161
+0.047	D-Xylose	161
+0.061	D-Galacturonic Acid	161
+0.049	L-Asparagine	161
+0.058	Tween 40	161
+0.036	i-Erythritol	161
+0.049	2-Hydroxy Benzoid Acid	161
+0.196	L-Phenylalanine	161
+0.047	Tween 40	161
+0.267	i-Erythritol	161
+1.472	2-Hydroxy Benzoid Acid	161
+0.092	L-Phenylalanine	161
+0.048	Tween 40	161
+0.053	i-Erythritol	161
+0.209	2-Hydroxy Benzoid Acid	161
+0.05	L-Phenylalanine	161
+0.055	Tween 80	161
+0.049	D-Mannitol	161
+0.043	4-Hydroxy Benzoid Acid	161
+0.037	L-Serine	161
+0.046	Tween 80	161
+0.041	D-Mannitol	161
+0.358	4-Hydroxy Benzoid Acid	161
+0.045	L-Serine	161
+0.045	Tween 80	161
+0.039	D-Mannitol	161
+0.056	4-Hydroxy Benzoid Acid	161
+0.077	L-Serine	161
+0.045	a-Cyclodextrin	161
+0.04	N-Accetyl-D-Glucosamine	161
+0.066	y-Amino Butyric Acid	161
+0.048	L-Threonine	161
+0.039	a-Cyclodextrin	161
+0.181	N-Accetyl-D-Glucosamine	161
+0.319	y-Amino Butyric Acid	161
+0.045	L-Threonine	161
+0.044	a-Cyclodextrin	161
+0.053	N-Accetyl-D-Glucosamine	161
+0.156	y-Amino Butyric Acid	161
+0.064	L-Threonine	161
+0.056	Glycogen	161
+0.034	D-Glucosaminic Acid	161
+0.037	Itaconic Acid	161
+0.038	Glycyl-L-Glutamic Acid	161
+0.048	Glycogen	161
+0.044	D-Glucosaminic Acid	161
+0.074	Itaconic Acid	161
+0.046	Glycyl-L-Glutamic Acid	161
+0.322	Glycogen	161
+0.056	D-Glucosaminic Acid	161
+0.109	Itaconic Acid	161
+0.113	Glycyl-L-Glutamic Acid	161
+0.045	D-Cellobiose	161
+0.039	Glucose-1-Phosphate	161
+0.04	a-Keto Butyric Acid	161
+0.037	Phenethylamine	161
+0.038	D-Cellobiose	161
+0.04	Glucose-1-Phosphate	161
+0.221	a-Keto Butyric Acid	161
+0.038	Phenethylamine	161
+0.044	D-Cellobiose	161
+0.041	Glucose-1-Phosphate	161
+0.102	a-Keto Butyric Acid	161
+0.093	Phenethylamine	161
+0.055	a-D-Lactose	161
+0.044	D,L-a-Glycerol Phosphate	161
+0.047	D-Malic Acid	161
+0.039	Putrescine	161
+0.045	a-D-Lactose	161
+0.05	D,L-a-Glycerol Phosphate	161
+0.053	D-Malic Acid	161
+0.043	Putrescine	161
+0.045	a-D-Lactose	161
+0.044	D,L-a-Glycerol Phosphate	161
+0.105	D-Malic Acid	161
+0.142	Putrescine	161
+0.046	Water	162
+0.041	ß-Methyl-D-Glucoside	162
+0.048	D-Galactonic Acid y-Lactone	162
+0.087	L-Arginine	162
+0.043	Water	162
+0.052	ß-Methyl-D-Glucoside	162
+0.061	D-Galactonic Acid y-Lactone	162
+0.065	L-Arginine	162
+0.058	Water	162
+0.047	ß-Methyl-D-Glucoside	162
+0.053	D-Galactonic Acid y-Lactone	162
+0.047	L-Arginine	162
+0.041	Pyruvic Acid Methyl Ester	162
+0.052	D-Xylose	162
+0.043	D-Galacturonic Acid	162
+0.038	L-Asparagine	162
+0.065	Pyruvic Acid Methyl Ester	162
+0.075	D-Xylose	162
+0.1	D-Galacturonic Acid	162
+0.096	L-Asparagine	162
+0.271	Pyruvic Acid Methyl Ester	162
+0.052	D-Xylose	162
+0.156	D-Galacturonic Acid	162
+0.052	L-Asparagine	162
+0.045	Tween 40	162
+0.039	i-Erythritol	162
+0.039	2-Hydroxy Benzoid Acid	162
+0.06	L-Phenylalanine	162
+0.049	Tween 40	162
+0.043	i-Erythritol	162
+0.791	2-Hydroxy Benzoid Acid	162
+0.146	L-Phenylalanine	162
+0.06	Tween 40	162
+0.141	i-Erythritol	162
+0.331	2-Hydroxy Benzoid Acid	162
+0.073	L-Phenylalanine	162
+0.05	Tween 80	162
+0.104	D-Mannitol	162
+0.041	4-Hydroxy Benzoid Acid	162
+0.043	L-Serine	162
+0.051	Tween 80	162
+0.054	D-Mannitol	162
+0.136	4-Hydroxy Benzoid Acid	162
+0.04	L-Serine	162
+0.054	Tween 80	162
+0.134	D-Mannitol	162
+0.336	4-Hydroxy Benzoid Acid	162
+0.048	L-Serine	162
+0.043	a-Cyclodextrin	162
+0.036	N-Accetyl-D-Glucosamine	162
+0.038	y-Amino Butyric Acid	162
+0.04	L-Threonine	162
+0.04	a-Cyclodextrin	162
+0.047	N-Accetyl-D-Glucosamine	162
+0.532	y-Amino Butyric Acid	162
+0.063	L-Threonine	162
+0.221	a-Cyclodextrin	162
+0.085	N-Accetyl-D-Glucosamine	162
+0.284	y-Amino Butyric Acid	162
+0.052	L-Threonine	162
+0.049	Glycogen	162
+0.055	D-Glucosaminic Acid	162
+0.039	Itaconic Acid	162
+0.039	Glycyl-L-Glutamic Acid	162
+0.11	Glycogen	162
+0.045	D-Glucosaminic Acid	162
+0.11	Itaconic Acid	162
+0.053	Glycyl-L-Glutamic Acid	162
+0.142	Glycogen	162
+0.106	D-Glucosaminic Acid	162
+0.195	Itaconic Acid	162
+0.12	Glycyl-L-Glutamic Acid	162
+0.041	D-Cellobiose	162
+0.037	Glucose-1-Phosphate	162
+0.041	a-Keto Butyric Acid	162
+0.046	Phenethylamine	162
+0.042	D-Cellobiose	162
+0.048	Glucose-1-Phosphate	162
+0.046	a-Keto Butyric Acid	162
+0.053	Phenethylamine	162
+0.134	D-Cellobiose	162
+0.1	Glucose-1-Phosphate	162
+0.209	a-Keto Butyric Acid	162
+0.15	Phenethylamine	162
+0.044	a-D-Lactose	162
+0.04	D,L-a-Glycerol Phosphate	162
+0.042	D-Malic Acid	162
+0.039	Putrescine	162
+0.042	a-D-Lactose	162
+0.046	D,L-a-Glycerol Phosphate	162
+0.049	D-Malic Acid	162
+0.047	Putrescine	162
+0.064	a-D-Lactose	162
+0.473	D,L-a-Glycerol Phosphate	162
+0.192	D-Malic Acid	162
+0.238	Putrescine	162
+0.057	Water	192
+0.048	ß-Methyl-D-Glucoside	192
+0.243	D-Galactonic Acid y-Lactone	192
+0.633	L-Arginine	192
+0.052	Water	192
+0.38	ß-Methyl-D-Glucoside	192
+0.211	D-Galactonic Acid y-Lactone	192
+2.633	L-Arginine	192
+0.092	Water	192
+0.051	ß-Methyl-D-Glucoside	192
+0.063	D-Galactonic Acid y-Lactone	192
+0.056	L-Arginine	192
+0.311	Pyruvic Acid Methyl Ester	192
+0.086	D-Xylose	192
+0.093	D-Galacturonic Acid	192
+0.048	L-Asparagine	192
+1.865	Pyruvic Acid Methyl Ester	192
+0.217	D-Xylose	192
+1.01	D-Galacturonic Acid	192
+0.067	L-Asparagine	192
+0.065	Pyruvic Acid Methyl Ester	192
+0.061	D-Xylose	192
+0.052	D-Galacturonic Acid	192
+0.052	L-Asparagine	192
+0.138	Tween 40	192
+2.925	i-Erythritol	192
+0.049	2-Hydroxy Benzoid Acid	192
+2.783	L-Phenylalanine	192
+0.071	Tween 40	192
+0.215	i-Erythritol	192
+0.045	2-Hydroxy Benzoid Acid	192
+0.069	L-Phenylalanine	192
+0.057	Tween 40	192
+0.049	i-Erythritol	192
+0.081	2-Hydroxy Benzoid Acid	192
+0.048	L-Phenylalanine	192
+2.669	Tween 80	192
+0.043	D-Mannitol	192
+0.408	4-Hydroxy Benzoid Acid	192
+0.041	L-Serine	192
+2.522	Tween 80	192
+2.602	D-Mannitol	192
+0.045	4-Hydroxy Benzoid Acid	192
+0.047	L-Serine	192
+0.213	Tween 80	192
+0.051	D-Mannitol	192
+0.137	4-Hydroxy Benzoid Acid	192
+0.052	L-Serine	192
+0.126	a-Cyclodextrin	192
+0.096	N-Accetyl-D-Glucosamine	192
+0.419	y-Amino Butyric Acid	192
+0.792	L-Threonine	192
+0.055	a-Cyclodextrin	192
+0.046	N-Accetyl-D-Glucosamine	192
+0.05	y-Amino Butyric Acid	192
+0.055	L-Threonine	192
+0.051	a-Cyclodextrin	192
+2.237	N-Accetyl-D-Glucosamine	192
+0.101	y-Amino Butyric Acid	192
+0.047	L-Threonine	192
+0.156	Glycogen	192
+0.236	D-Glucosaminic Acid	192
+0.04	Itaconic Acid	192
+0.043	Glycyl-L-Glutamic Acid	192
+3.5	Glycogen	192
+0.773	D-Glucosaminic Acid	192
+3.274	Itaconic Acid	192
+0.043	Glycyl-L-Glutamic Acid	192
+1.536	Glycogen	192
+0.051	D-Glucosaminic Acid	192
+0.112	Itaconic Acid	192
+0.057	Glycyl-L-Glutamic Acid	192
+0.112	D-Cellobiose	192
+0.049	Glucose-1-Phosphate	192
+0.047	a-Keto Butyric Acid	192
+0.112	Phenethylamine	192
+0.052	D-Cellobiose	192
+0.052	Glucose-1-Phosphate	192
+0.182	a-Keto Butyric Acid	192
+0.117	Phenethylamine	192
+0.74	D-Cellobiose	192
+0.046	Glucose-1-Phosphate	192
+0.11	a-Keto Butyric Acid	192
+0.061	Phenethylamine	192
+0.08	a-D-Lactose	192
+0.052	D,L-a-Glycerol Phosphate	192
+0.046	D-Malic Acid	192
+0.078	Putrescine	192
+0.045	a-D-Lactose	192
+0.044	D,L-a-Glycerol Phosphate	192
+1.402	D-Malic Acid	192
+0.044	Putrescine	192
+0.048	a-D-Lactose	192
+0.055	D,L-a-Glycerol Phosphate	192
+0.37	D-Malic Acid	192
+0.209	Putrescine	192
+0.045	Water	193
+0.045	ß-Methyl-D-Glucoside	193
+0.05	D-Galactonic Acid y-Lactone	193
+0.038	L-Arginine	193
+0.046	Water	193
+0.043	ß-Methyl-D-Glucoside	193
+0.047	D-Galactonic Acid y-Lactone	193
+0.046	L-Arginine	193
+0.095	Water	193
+0.041	ß-Methyl-D-Glucoside	193
+0.27	D-Galactonic Acid y-Lactone	193
+3.171	L-Arginine	193
+0.046	Pyruvic Acid Methyl Ester	193
+0.049	D-Xylose	193
+0.047	D-Galacturonic Acid	193
+0.04	L-Asparagine	193
+0.045	Pyruvic Acid Methyl Ester	193
+0.046	D-Xylose	193
+2.783	D-Galacturonic Acid	193
+0.12	L-Asparagine	193
+0.079	Pyruvic Acid Methyl Ester	193
+0.061	D-Xylose	193
+2.936	D-Galacturonic Acid	193
+0.045	L-Asparagine	193
+0.114	Tween 40	193
+0.056	i-Erythritol	193
+0.062	2-Hydroxy Benzoid Acid	193
+0.04	L-Phenylalanine	193
+0.053	Tween 40	193
+0.042	i-Erythritol	193
+0.101	2-Hydroxy Benzoid Acid	193
+0.115	L-Phenylalanine	193
+0.489	Tween 40	193
+0.059	i-Erythritol	193
+0.236	2-Hydroxy Benzoid Acid	193
+0.084	L-Phenylalanine	193
+0.065	Tween 80	193
+2.053	D-Mannitol	193
+0.089	4-Hydroxy Benzoid Acid	193
+0.04	L-Serine	193
+0.053	Tween 80	193
+2.35	D-Mannitol	193
+0.045	4-Hydroxy Benzoid Acid	193
+0.042	L-Serine	193
+0.055	Tween 80	193
+0.039	D-Mannitol	193
+0.077	4-Hydroxy Benzoid Acid	193
+0.145	L-Serine	193
+0.044	a-Cyclodextrin	193
+0.044	N-Accetyl-D-Glucosamine	193
+0.051	y-Amino Butyric Acid	193
+0.038	L-Threonine	193
+0.044	a-Cyclodextrin	193
+0.039	N-Accetyl-D-Glucosamine	193
+0.095	y-Amino Butyric Acid	193
+3.379	L-Threonine	193
+0.041	a-Cyclodextrin	193
+0.048	N-Accetyl-D-Glucosamine	193
+2.621	y-Amino Butyric Acid	193
+0.056	L-Threonine	193
+0.051	Glycogen	193
+0.04	D-Glucosaminic Acid	193
+0.04	Itaconic Acid	193
+0.038	Glycyl-L-Glutamic Acid	193
+0.052	Glycogen	193
+3.261	D-Glucosaminic Acid	193
+0.044	Itaconic Acid	193
+0.043	Glycyl-L-Glutamic Acid	193
+3.5	Glycogen	193
+0.038	D-Glucosaminic Acid	193
+0.571	Itaconic Acid	193
+0.062	Glycyl-L-Glutamic Acid	193
+0.044	D-Cellobiose	193
+0.038	Glucose-1-Phosphate	193
+0.046	a-Keto Butyric Acid	193
+3.262	Phenethylamine	193
+0.04	D-Cellobiose	193
+0.04	Glucose-1-Phosphate	193
+0.04	a-Keto Butyric Acid	193
+0.043	Phenethylamine	193
+0.039	D-Cellobiose	193
+0.041	Glucose-1-Phosphate	193
+0.056	a-Keto Butyric Acid	193
+0.136	Phenethylamine	193
+0.043	a-D-Lactose	193
+0.063	D,L-a-Glycerol Phosphate	193
+0.134	D-Malic Acid	193
+0.044	Putrescine	193
+3.5	a-D-Lactose	193
+0.04	D,L-a-Glycerol Phosphate	193
+3.438	D-Malic Acid	193
+0.046	Putrescine	193
+0.133	a-D-Lactose	193
+0.162	D,L-a-Glycerol Phosphate	193
+0.547	D-Malic Acid	193
+1.824	Putrescine	193
+0.547	Water	196
+0.04	ß-Methyl-D-Glucoside	196
+3.5	D-Galactonic Acid y-Lactone	196
+2.51	L-Arginine	196
+0.042	Water	196
+0.077	ß-Methyl-D-Glucoside	196
+3.33	D-Galactonic Acid y-Lactone	196
+0.077	L-Arginine	196
+1.964	Water	196
+0.673	ß-Methyl-D-Glucoside	196
+0.089	D-Galactonic Acid y-Lactone	196
+2.497	L-Arginine	196
+0.943	Pyruvic Acid Methyl Ester	196
+2.08	D-Xylose	196
+2.672	D-Galacturonic Acid	196
+0.041	L-Asparagine	196
+2.364	Pyruvic Acid Methyl Ester	196
+0.143	D-Xylose	196
+2.564	D-Galacturonic Acid	196
+2.914	L-Asparagine	196
+2.301	Pyruvic Acid Methyl Ester	196
+1.526	D-Xylose	196
+2.813	D-Galacturonic Acid	196
+2.37	L-Asparagine	196
+2.656	Tween 40	196
+0.04	i-Erythritol	196
+0.051	2-Hydroxy Benzoid Acid	196
+2.191	L-Phenylalanine	196
+1.998	Tween 40	196
+0.042	i-Erythritol	196
+0.043	2-Hydroxy Benzoid Acid	196
+0.042	L-Phenylalanine	196
+0.056	Tween 40	196
+1.377	i-Erythritol	196
+0.048	2-Hydroxy Benzoid Acid	196
+2.683	L-Phenylalanine	196
+0.053	Tween 80	196
+1.68	D-Mannitol	196
+2.341	4-Hydroxy Benzoid Acid	196
+0.038	L-Serine	196
+0.349	Tween 80	196
+0.045	D-Mannitol	196
+0.078	4-Hydroxy Benzoid Acid	196
+2.629	L-Serine	196
+2.041	Tween 80	196
+3.5	D-Mannitol	196
+0.157	4-Hydroxy Benzoid Acid	196
+0.587	L-Serine	196
+2.482	a-Cyclodextrin	196
+2.318	N-Accetyl-D-Glucosamine	196
+0.039	y-Amino Butyric Acid	196
+1.315	L-Threonine	196
+2.259	a-Cyclodextrin	196
+0.038	N-Accetyl-D-Glucosamine	196
+0.487	y-Amino Butyric Acid	196
+2.154	L-Threonine	196
+0.053	a-Cyclodextrin	196
+0.043	N-Accetyl-D-Glucosamine	196
+2.859	y-Amino Butyric Acid	196
+2.424	L-Threonine	196
+3.5	Glycogen	196
+2.091	D-Glucosaminic Acid	196
+0.497	Itaconic Acid	196
+0.209	Glycyl-L-Glutamic Acid	196
+3.434	Glycogen	196
+0.059	D-Glucosaminic Acid	196
+0.75	Itaconic Acid	196
+0.183	Glycyl-L-Glutamic Acid	196
+2.724	Glycogen	196
+3.28	D-Glucosaminic Acid	196
+2.823	Itaconic Acid	196
+0.438	Glycyl-L-Glutamic Acid	196
+2.207	D-Cellobiose	196
+0.052	Glucose-1-Phosphate	196
+0.039	a-Keto Butyric Acid	196
+0.077	Phenethylamine	196
+0.035	D-Cellobiose	196
+0.037	Glucose-1-Phosphate	196
+0.044	a-Keto Butyric Acid	196
+1.695	Phenethylamine	196
+2.359	D-Cellobiose	196
+2.758	Glucose-1-Phosphate	196
+0.245	a-Keto Butyric Acid	196
+0.085	Phenethylamine	196
+2.35	a-D-Lactose	196
+2.942	D,L-a-Glycerol Phosphate	196
+1.797	D-Malic Acid	196
+0.204	Putrescine	196
+0.046	a-D-Lactose	196
+0.093	D,L-a-Glycerol Phosphate	196
+0.048	D-Malic Acid	196
+0.31	Putrescine	196
+0.439	a-D-Lactose	196
+1.996	D,L-a-Glycerol Phosphate	196
+2.953	D-Malic Acid	196
+1.516	Putrescine	196
+0.046	Water	197
+0.039	ß-Methyl-D-Glucoside	197
+0.052	D-Galactonic Acid y-Lactone	197
+0.043	L-Arginine	197
+0.046	Water	197
+0.044	ß-Methyl-D-Glucoside	197
+0.045	D-Galactonic Acid y-Lactone	197
+0.057	L-Arginine	197
+0.043	Water	197
+0.041	ß-Methyl-D-Glucoside	197
+0.049	D-Galactonic Acid y-Lactone	197
+0.04	L-Arginine	197
+0.041	Pyruvic Acid Methyl Ester	197
+0.21	D-Xylose	197
+1.043	D-Galacturonic Acid	197
+0.596	L-Asparagine	197
+1.932	Pyruvic Acid Methyl Ester	197
+0.625	D-Xylose	197
+1.699	D-Galacturonic Acid	197
+1.135	L-Asparagine	197
+1.232	Pyruvic Acid Methyl Ester	197
+1.1	D-Xylose	197
+0.364	D-Galacturonic Acid	197
+0.153	L-Asparagine	197
+0.121	Tween 40	197
+0.035	i-Erythritol	197
+0.325	2-Hydroxy Benzoid Acid	197
+0.037	L-Phenylalanine	197
+0.274	Tween 40	197
+0.959	i-Erythritol	197
+0.455	2-Hydroxy Benzoid Acid	197
+0.164	L-Phenylalanine	197
+0.051	Tween 40	197
+0.3	i-Erythritol	197
+0.281	2-Hydroxy Benzoid Acid	197
+0.039	L-Phenylalanine	197
+0.047	Tween 80	197
+0.042	D-Mannitol	197
+0.679	4-Hydroxy Benzoid Acid	197
+0.219	L-Serine	197
+0.049	Tween 80	197
+0.039	D-Mannitol	197
+0.449	4-Hydroxy Benzoid Acid	197
+0.165	L-Serine	197
+0.058	Tween 80	197
+0.116	D-Mannitol	197
+0.175	4-Hydroxy Benzoid Acid	197
+0.059	L-Serine	197
+0.079	a-Cyclodextrin	197
+0.066	N-Accetyl-D-Glucosamine	197
+0.216	y-Amino Butyric Acid	197
+0.042	L-Threonine	197
+0.442	a-Cyclodextrin	197
+0.386	N-Accetyl-D-Glucosamine	197
+0.845	y-Amino Butyric Acid	197
+0.35	L-Threonine	197
+0.71	a-Cyclodextrin	197
+0.374	N-Accetyl-D-Glucosamine	197
+0.324	y-Amino Butyric Acid	197
+0.199	L-Threonine	197
+0.044	Glycogen	197
+0.038	D-Glucosaminic Acid	197
+0.036	Itaconic Acid	197
+0.037	Glycyl-L-Glutamic Acid	197
+0.048	Glycogen	197
+0.038	D-Glucosaminic Acid	197
+0.043	Itaconic Acid	197
+0.039	Glycyl-L-Glutamic Acid	197
+0.055	Glycogen	197
+0.041	D-Glucosaminic Acid	197
+0.062	Itaconic Acid	197
+0.055	Glycyl-L-Glutamic Acid	197
+0.042	D-Cellobiose	197
+0.549	Glucose-1-Phosphate	197
+0.088	a-Keto Butyric Acid	197
+0.043	Phenethylamine	197
+0.037	D-Cellobiose	197
+0.043	Glucose-1-Phosphate	197
+0.038	a-Keto Butyric Acid	197
+0.038	Phenethylamine	197
+0.035	D-Cellobiose	197
+0.036	Glucose-1-Phosphate	197
+0.145	a-Keto Butyric Acid	197
+0.105	Phenethylamine	197
+0.089	a-D-Lactose	197
+0.039	D,L-a-Glycerol Phosphate	197
+0.32	D-Malic Acid	197
+0.268	Putrescine	197
+0.082	a-D-Lactose	197
+0.125	D,L-a-Glycerol Phosphate	197
+0.163	D-Malic Acid	197
+0.085	Putrescine	197
+0.129	a-D-Lactose	197
+0.189	D,L-a-Glycerol Phosphate	197
+0.506	D-Malic Acid	197
+0.499	Putrescine	197
+0.12	Water	198
+0.048	ß-Methyl-D-Glucoside	198
+0.65	D-Galactonic Acid y-Lactone	198
+0.719	L-Arginine	198
+0.315	Water	198
+0.444	ß-Methyl-D-Glucoside	198
+0.58	D-Galactonic Acid y-Lactone	198
+0.16	L-Arginine	198
+0.305	Water	198
+0.233	ß-Methyl-D-Glucoside	198
+0.356	D-Galactonic Acid y-Lactone	198
+0.067	L-Arginine	198
+0.118	Pyruvic Acid Methyl Ester	198
+0.969	D-Xylose	198
+0.384	D-Galacturonic Acid	198
+0.182	L-Asparagine	198
+0.335	Pyruvic Acid Methyl Ester	198
+0.234	D-Xylose	198
+1.517	D-Galacturonic Acid	198
+0.197	L-Asparagine	198
+0.52	Pyruvic Acid Methyl Ester	198
+0.142	D-Xylose	198
+0.51	D-Galacturonic Acid	198
+0.073	L-Asparagine	198
+0.063	Tween 40	198
+0.747	i-Erythritol	198
+1.748	2-Hydroxy Benzoid Acid	198
+0.181	L-Phenylalanine	198
+0.054	Tween 40	198
+0.18	i-Erythritol	198
+0.548	2-Hydroxy Benzoid Acid	198
+0.083	L-Phenylalanine	198
+0.048	Tween 40	198
+0.202	i-Erythritol	198
+0.579	2-Hydroxy Benzoid Acid	198
+1.64	L-Phenylalanine	198
+0.054	Tween 80	198
+1.115	D-Mannitol	198
+1.196	4-Hydroxy Benzoid Acid	198
+0.196	L-Serine	198
+0.05	Tween 80	198
+0.302	D-Mannitol	198
+0.744	4-Hydroxy Benzoid Acid	198
+0.197	L-Serine	198
+0.049	Tween 80	198
+0.075	D-Mannitol	198
+1.447	4-Hydroxy Benzoid Acid	198
+0.312	L-Serine	198
+0.074	a-Cyclodextrin	198
+0.044	N-Accetyl-D-Glucosamine	198
+0.044	y-Amino Butyric Acid	198
+0.038	L-Threonine	198
+0.062	a-Cyclodextrin	198
+0.047	N-Accetyl-D-Glucosamine	198
+0.057	y-Amino Butyric Acid	198
+0.044	L-Threonine	198
+0.068	a-Cyclodextrin	198
+2.603	N-Accetyl-D-Glucosamine	198
+0.169	y-Amino Butyric Acid	198
+0.116	L-Threonine	198
+3.071	Glycogen	198
+0.044	D-Glucosaminic Acid	198
+0.525	Itaconic Acid	198
+0.037	Glycyl-L-Glutamic Acid	198
+0.044	Glycogen	198
+0.038	D-Glucosaminic Acid	198
+0.04	Itaconic Acid	198
+2.394	Glycyl-L-Glutamic Acid	198
+0.378	Glycogen	198
+0.047	D-Glucosaminic Acid	198
+0.048	Itaconic Acid	198
+0.051	Glycyl-L-Glutamic Acid	198
+0.075	D-Cellobiose	198
+0.046	Glucose-1-Phosphate	198
+0.047	a-Keto Butyric Acid	198
+1.691	Phenethylamine	198
+0.039	D-Cellobiose	198
+0.038	Glucose-1-Phosphate	198
+0.041	a-Keto Butyric Acid	198
+0.048	Phenethylamine	198
+0.044	D-Cellobiose	198
+0.043	Glucose-1-Phosphate	198
+0.176	a-Keto Butyric Acid	198
+0.065	Phenethylamine	198
+0.092	a-D-Lactose	198
+0.351	D,L-a-Glycerol Phosphate	198
+0.493	D-Malic Acid	198
+1.65	Putrescine	198
+0.102	a-D-Lactose	198
+0.111	D,L-a-Glycerol Phosphate	198
+3.488	D-Malic Acid	198
+1.555	Putrescine	198
+0.08	a-D-Lactose	198
+1.348	D,L-a-Glycerol Phosphate	198
+0.153	D-Malic Acid	198
+0.243	Putrescine	198
+2.194	Water	265
+2.793	ß-Methyl-D-Glucoside	265
+3.5	D-Galactonic Acid y-Lactone	265
+3.5	L-Arginine	265
+3.5	Water	265
+3.336	ß-Methyl-D-Glucoside	265
+3.256	D-Galactonic Acid y-Lactone	265
+3.5	L-Arginine	265
+1.813	Water	265
+3.338	ß-Methyl-D-Glucoside	265
+3.14	D-Galactonic Acid y-Lactone	265
+3.205	L-Arginine	265
+2.832	Pyruvic Acid Methyl Ester	265
+1.544	D-Xylose	265
+2.474	D-Galacturonic Acid	265
+3.5	L-Asparagine	265
+3.5	Pyruvic Acid Methyl Ester	265
+0.061	D-Xylose	265
+3.196	D-Galacturonic Acid	265
+3.45	L-Asparagine	265
+3.5	Pyruvic Acid Methyl Ester	265
+2.497	D-Xylose	265
+3.089	D-Galacturonic Acid	265
+3.5	L-Asparagine	265
+3.334	Tween 40	265
+1.491	i-Erythritol	265
+0.062	2-Hydroxy Benzoid Acid	265
+2.929	L-Phenylalanine	265
+1.697	Tween 40	265
+1.44	i-Erythritol	265
+0.084	2-Hydroxy Benzoid Acid	265
+3.41	L-Phenylalanine	265
+2.536	Tween 40	265
+2.216	i-Erythritol	265
+0.156	2-Hydroxy Benzoid Acid	265
+2.595	L-Phenylalanine	265
+1.749	Tween 80	265
+3.5	D-Mannitol	265
+0.574	4-Hydroxy Benzoid Acid	265
+3.5	L-Serine	265
+2.022	Tween 80	265
+2.875	D-Mannitol	265
+1.563	4-Hydroxy Benzoid Acid	265
+3.482	L-Serine	265
+3.5	Tween 80	265
+1.823	D-Mannitol	265
+2.088	4-Hydroxy Benzoid Acid	265
+2.072	L-Serine	265
+2.202	a-Cyclodextrin	265
+2.969	N-Accetyl-D-Glucosamine	265
+3.381	y-Amino Butyric Acid	265
+3.413	L-Threonine	265
+2.212	a-Cyclodextrin	265
+3.093	N-Accetyl-D-Glucosamine	265
+2.85	y-Amino Butyric Acid	265
+3.495	L-Threonine	265
+2.506	a-Cyclodextrin	265
+3.476	N-Accetyl-D-Glucosamine	265
+3.5	y-Amino Butyric Acid	265
+3.5	L-Threonine	265
+2.974	Glycogen	265
+3.5	D-Glucosaminic Acid	265
+2.765	Itaconic Acid	265
+2.435	Glycyl-L-Glutamic Acid	265
+3.5	Glycogen	265
+3.286	D-Glucosaminic Acid	265
+3.5	Itaconic Acid	265
+2.903	Glycyl-L-Glutamic Acid	265
+3.5	Glycogen	265
+3.455	D-Glucosaminic Acid	265
+3.43	Itaconic Acid	265
+3.37	Glycyl-L-Glutamic Acid	265
+2.481	D-Cellobiose	265
+3.462	Glucose-1-Phosphate	265
+1.775	a-Keto Butyric Acid	265
+0.983	Phenethylamine	265
+3.134	D-Cellobiose	265
+3.2	Glucose-1-Phosphate	265
+1.968	a-Keto Butyric Acid	265
+2.763	Phenethylamine	265
+2.392	D-Cellobiose	265
+3.114	Glucose-1-Phosphate	265
+3.34	a-Keto Butyric Acid	265
+2.001	Phenethylamine	265
+2.883	a-D-Lactose	265
+3.434	D,L-a-Glycerol Phosphate	265
+3.5	D-Malic Acid	265
+3.5	Putrescine	265
+3.281	a-D-Lactose	265
+2.925	D,L-a-Glycerol Phosphate	265
+2.479	D-Malic Acid	265
+3.435	Putrescine	265
+0.033	a-D-Lactose	265
+0.032	D,L-a-Glycerol Phosphate	265
+0.037	D-Malic Acid	265
+0.034	Putrescine	265
+0.048	Water	266
+1.485	ß-Methyl-D-Glucoside	266
+3.152	D-Galactonic Acid y-Lactone	266
+2.782	L-Arginine	266
+2.675	Water	266
+1.477	ß-Methyl-D-Glucoside	266
+3.152	D-Galactonic Acid y-Lactone	266
+2.523	L-Arginine	266
+2.681	Water	266
+1.479	ß-Methyl-D-Glucoside	266
+2.748	D-Galactonic Acid y-Lactone	266
+3.5	L-Arginine	266
+0.601	Pyruvic Acid Methyl Ester	266
+0.907	D-Xylose	266
+1.777	D-Galacturonic Acid	266
+2.458	L-Asparagine	266
+0.565	Pyruvic Acid Methyl Ester	266
+0.958	D-Xylose	266
+1.748	D-Galacturonic Acid	266
+2.433	L-Asparagine	266
+1.013	Pyruvic Acid Methyl Ester	266
+0.051	D-Xylose	266
+2.006	D-Galacturonic Acid	266
+2.65	L-Asparagine	266
+2.589	Tween 40	266
+1.928	i-Erythritol	266
+0.104	2-Hydroxy Benzoid Acid	266
+2.587	L-Phenylalanine	266
+2.422	Tween 40	266
+2.451	i-Erythritol	266
+0.159	2-Hydroxy Benzoid Acid	266
+2.572	L-Phenylalanine	266
+3.5	Tween 40	266
+2.691	i-Erythritol	266
+0.104	2-Hydroxy Benzoid Acid	266
+2.83	L-Phenylalanine	266
+2.541	Tween 80	266
+1.227	D-Mannitol	266
+1.78	4-Hydroxy Benzoid Acid	266
+2.801	L-Serine	266
+2.458	Tween 80	266
+1.353	D-Mannitol	266
+1.832	4-Hydroxy Benzoid Acid	266
+0.041	L-Serine	266
+2.487	Tween 80	266
+1.261	D-Mannitol	266
+1.878	4-Hydroxy Benzoid Acid	266
+2.726	L-Serine	266
+0.1	a-Cyclodextrin	266
+2.411	N-Accetyl-D-Glucosamine	266
+2.634	y-Amino Butyric Acid	266
+2.365	L-Threonine	266
+2.888	a-Cyclodextrin	266
+2.601	N-Accetyl-D-Glucosamine	266
+2.66	y-Amino Butyric Acid	266
+2.648	L-Threonine	266
+3.5	a-Cyclodextrin	266
+0.042	N-Accetyl-D-Glucosamine	266
+2.725	y-Amino Butyric Acid	266
+2.63	L-Threonine	266
+2.902	Glycogen	266
+1.693	D-Glucosaminic Acid	266
+2.872	Itaconic Acid	266
+2.849	Glycyl-L-Glutamic Acid	266
+3.122	Glycogen	266
+1.83	D-Glucosaminic Acid	266
+3.139	Itaconic Acid	266
+3.078	Glycyl-L-Glutamic Acid	266
+3.101	Glycogen	266
+2.013	D-Glucosaminic Acid	266
+3.013	Itaconic Acid	266
+3.061	Glycyl-L-Glutamic Acid	266
+1.703	D-Cellobiose	266
+2.702	Glucose-1-Phosphate	266
+2.288	a-Keto Butyric Acid	266
+3.118	Phenethylamine	266
+1.808	D-Cellobiose	266
+2.272	Glucose-1-Phosphate	266
+2.143	a-Keto Butyric Acid	266
+2.378	Phenethylamine	266
+3.266	D-Cellobiose	266
+2.448	Glucose-1-Phosphate	266
+2.154	a-Keto Butyric Acid	266
+2.325	Phenethylamine	266
+1.611	a-D-Lactose	266
+3.046	D,L-a-Glycerol Phosphate	266
+3.167	D-Malic Acid	266
+2.702	Putrescine	266
+2.114	a-D-Lactose	266
+2.758	D,L-a-Glycerol Phosphate	266
+3.03	D-Malic Acid	266
+2.421	Putrescine	266
+1.406	a-D-Lactose	266
+2.594	D,L-a-Glycerol Phosphate	266
+2.614	D-Malic Acid	266
+2.85	Putrescine	266
+0.047	Water	267
+0.049	ß-Methyl-D-Glucoside	267
+0.318	D-Galactonic Acid y-Lactone	267
+1.232	L-Arginine	267
+2.608	Water	267
+2.864	ß-Methyl-D-Glucoside	267
+3.5	D-Galactonic Acid y-Lactone	267
+1.471	L-Arginine	267
+2.853	Water	267
+0.045	ß-Methyl-D-Glucoside	267
+0.128	D-Galactonic Acid y-Lactone	267
+3.013	L-Arginine	267
+0.852	Pyruvic Acid Methyl Ester	267
+0.049	D-Xylose	267
+1.588	D-Galacturonic Acid	267
+0.041	L-Asparagine	267
+2.151	Pyruvic Acid Methyl Ester	267
+0.046	D-Xylose	267
+0.127	D-Galacturonic Acid	267
+1.597	L-Asparagine	267
+1.835	Pyruvic Acid Methyl Ester	267
+0.063	D-Xylose	267
+1.013	D-Galacturonic Acid	267
+2.454	L-Asparagine	267
+2.212	Tween 40	267
+0.092	i-Erythritol	267
+0.045	2-Hydroxy Benzoid Acid	267
+2.817	L-Phenylalanine	267
+2.43	Tween 40	267
+0.043	i-Erythritol	267
+0.043	2-Hydroxy Benzoid Acid	267
+0.925	L-Phenylalanine	267
+0.08	Tween 40	267
+0.042	i-Erythritol	267
+0.154	2-Hydroxy Benzoid Acid	267
+0.059	L-Phenylalanine	267
+0.67	Tween 80	267
+0.608	D-Mannitol	267
+0.045	4-Hydroxy Benzoid Acid	267
+0.039	L-Serine	267
+0.104	Tween 80	267
+1.822	D-Mannitol	267
+0.042	4-Hydroxy Benzoid Acid	267
+0.058	L-Serine	267
+1.099	Tween 80	267
+0.056	D-Mannitol	267
+0.586	4-Hydroxy Benzoid Acid	267
+1.101	L-Serine	267
+0.047	a-Cyclodextrin	267
+0.067	N-Accetyl-D-Glucosamine	267
+0.046	y-Amino Butyric Acid	267
+0.043	L-Threonine	267
+1.6	a-Cyclodextrin	267
+0.746	N-Accetyl-D-Glucosamine	267
+0.044	y-Amino Butyric Acid	267
+2.684	L-Threonine	267
+3.131	a-Cyclodextrin	267
+0.081	N-Accetyl-D-Glucosamine	267
+0.147	y-Amino Butyric Acid	267
+0.068	L-Threonine	267
+0.121	Glycogen	267
+0.043	D-Glucosaminic Acid	267
+3.22	Itaconic Acid	267
+2.677	Glycyl-L-Glutamic Acid	267
+2.174	Glycogen	267
+0.072	D-Glucosaminic Acid	267
+0.947	Itaconic Acid	267
+3.098	Glycyl-L-Glutamic Acid	267
+1.881	Glycogen	267
+0.099	D-Glucosaminic Acid	267
+0.12	Itaconic Acid	267
+3.263	Glycyl-L-Glutamic Acid	267
+2.479	D-Cellobiose	267
+2.72	Glucose-1-Phosphate	267
+0.21	a-Keto Butyric Acid	267
+0.08	Phenethylamine	267
+0.044	D-Cellobiose	267
+1.092	Glucose-1-Phosphate	267
+0.769	a-Keto Butyric Acid	267
+0.042	Phenethylamine	267
+0.057	D-Cellobiose	267
+0.128	Glucose-1-Phosphate	267
+2.723	a-Keto Butyric Acid	267
+0.086	Phenethylamine	267
+3.022	a-D-Lactose	267
+0.042	D,L-a-Glycerol Phosphate	267
+1.292	D-Malic Acid	267
+2.35	Putrescine	267
+3.055	a-D-Lactose	267
+0.043	D,L-a-Glycerol Phosphate	267
+0.049	D-Malic Acid	267
+2.582	Putrescine	267
+0.043	a-D-Lactose	267
+1.211	D,L-a-Glycerol Phosphate	267
+0.083	D-Malic Acid	267
+0.319	Putrescine	267
+2.319	Water	268
+2.993	ß-Methyl-D-Glucoside	268
+2.696	D-Galactonic Acid y-Lactone	268
+3.5	L-Arginine	268
+2.345	Water	268
+3.448	ß-Methyl-D-Glucoside	268
+3.3	D-Galactonic Acid y-Lactone	268
+2.345	L-Arginine	268
+2.037	Water	268
+3.255	ß-Methyl-D-Glucoside	268
+2.251	D-Galactonic Acid y-Lactone	268
+3.5	L-Arginine	268
+2.609	Pyruvic Acid Methyl Ester	268
+2.357	D-Xylose	268
+2.674	D-Galacturonic Acid	268
+2.667	L-Asparagine	268
+2.805	Pyruvic Acid Methyl Ester	268
+1.03	D-Xylose	268
+3.252	D-Galacturonic Acid	268
+3.5	L-Asparagine	268
+2.339	Pyruvic Acid Methyl Ester	268
+2.435	D-Xylose	268
+2.9	D-Galacturonic Acid	268
+3.5	L-Asparagine	268
+3.231	Tween 40	268
+2.269	i-Erythritol	268
+1.123	2-Hydroxy Benzoid Acid	268
+2.836	L-Phenylalanine	268
+3.5	Tween 40	268
+2.194	i-Erythritol	268
+1.078	2-Hydroxy Benzoid Acid	268
+3.062	L-Phenylalanine	268
+2.78	Tween 40	268
+2.489	i-Erythritol	268
+0.257	2-Hydroxy Benzoid Acid	268
+2.501	L-Phenylalanine	268
+2.753	Tween 80	268
+3.096	D-Mannitol	268
+1.823	4-Hydroxy Benzoid Acid	268
+3.044	L-Serine	268
+3.112	Tween 80	268
+2.683	D-Mannitol	268
+3.045	4-Hydroxy Benzoid Acid	268
+3.5	L-Serine	268
+3.046	Tween 80	268
+2.184	D-Mannitol	268
+1.63	4-Hydroxy Benzoid Acid	268
+2.512	L-Serine	268
+2.719	a-Cyclodextrin	268
+3.2	N-Accetyl-D-Glucosamine	268
+2.5	y-Amino Butyric Acid	268
+3.164	L-Threonine	268
+3.223	a-Cyclodextrin	268
+2.863	N-Accetyl-D-Glucosamine	268
+3.04	y-Amino Butyric Acid	268
+2.685	L-Threonine	268
+2.866	a-Cyclodextrin	268
+2.459	N-Accetyl-D-Glucosamine	268
+3.5	y-Amino Butyric Acid	268
+3.103	L-Threonine	268
+3.328	Glycogen	268
+2.639	D-Glucosaminic Acid	268
+3.115	Itaconic Acid	268
+3.178	Glycyl-L-Glutamic Acid	268
+3.447	Glycogen	268
+3.084	D-Glucosaminic Acid	268
+3.458	Itaconic Acid	268
+2.97	Glycyl-L-Glutamic Acid	268
+3.371	Glycogen	268
+2.658	D-Glucosaminic Acid	268
+1.748	Itaconic Acid	268
+2.528	Glycyl-L-Glutamic Acid	268
+3.433	D-Cellobiose	268
+2.9	Glucose-1-Phosphate	268
+2.93	a-Keto Butyric Acid	268
+3.017	Phenethylamine	268
+3.5	D-Cellobiose	268
+2.812	Glucose-1-Phosphate	268
+2.531	a-Keto Butyric Acid	268
+2.663	Phenethylamine	268
+2.814	D-Cellobiose	268
+3.288	Glucose-1-Phosphate	268
+2.598	a-Keto Butyric Acid	268
+2.612	Phenethylamine	268
+3.175	a-D-Lactose	268
+2.942	D,L-a-Glycerol Phosphate	268
+3.073	D-Malic Acid	268
+2.495	Putrescine	268
+2.765	a-D-Lactose	268
+2.196	D,L-a-Glycerol Phosphate	268
+3.5	D-Malic Acid	268
+2.583	Putrescine	268
+2.466	a-D-Lactose	268
+2.546	D,L-a-Glycerol Phosphate	268
+2.929	D-Malic Acid	268
+3.5	Putrescine	268
+3.006	Water	269
+3.5	ß-Methyl-D-Glucoside	269
+3.324	D-Galactonic Acid y-Lactone	269
+3.5	L-Arginine	269
+2.66	Water	269
+3.124	ß-Methyl-D-Glucoside	269
+3.5	D-Galactonic Acid y-Lactone	269
+3.094	L-Arginine	269
+3.439	Water	269
+3.285	ß-Methyl-D-Glucoside	269
+3.5	D-Galactonic Acid y-Lactone	269
+3.5	L-Arginine	269
+2.463	Pyruvic Acid Methyl Ester	269
+2.281	D-Xylose	269
+3.349	D-Galacturonic Acid	269
+3.5	L-Asparagine	269
+2.843	Pyruvic Acid Methyl Ester	269
+2.185	D-Xylose	269
+3.485	D-Galacturonic Acid	269
+3.096	L-Asparagine	269
+3.5	Pyruvic Acid Methyl Ester	269
+3.5	D-Xylose	269
+3.279	D-Galacturonic Acid	269
+3.5	L-Asparagine	269
+3.129	Tween 40	269
+2.739	i-Erythritol	269
+0.421	2-Hydroxy Benzoid Acid	269
+2.151	L-Phenylalanine	269
+3.306	Tween 40	269
+2.125	i-Erythritol	269
+1.384	2-Hydroxy Benzoid Acid	269
+2.995	L-Phenylalanine	269
+3.5	Tween 40	269
+2.703	i-Erythritol	269
+0.793	2-Hydroxy Benzoid Acid	269
+1.995	L-Phenylalanine	269
+2.964	Tween 80	269
+2.793	D-Mannitol	269
+3.144	4-Hydroxy Benzoid Acid	269
+2.483	L-Serine	269
+3.5	Tween 80	269
+3.5	D-Mannitol	269
+2.801	4-Hydroxy Benzoid Acid	269
+3.338	L-Serine	269
+3.5	Tween 80	269
+3.5	D-Mannitol	269
+3.18	4-Hydroxy Benzoid Acid	269
+3.173	L-Serine	269
+2.909	a-Cyclodextrin	269
+3.342	N-Accetyl-D-Glucosamine	269
+3.411	y-Amino Butyric Acid	269
+2.86	L-Threonine	269
+3.381	a-Cyclodextrin	269
+3.227	N-Accetyl-D-Glucosamine	269
+3.5	y-Amino Butyric Acid	269
+3.457	L-Threonine	269
+2.999	a-Cyclodextrin	269
+3.5	N-Accetyl-D-Glucosamine	269
+2.873	y-Amino Butyric Acid	269
+3.5	L-Threonine	269
+3.5	Glycogen	269
+2.779	D-Glucosaminic Acid	269
+2.883	Itaconic Acid	269
+2.573	Glycyl-L-Glutamic Acid	269
+3.252	Glycogen	269
+2.915	D-Glucosaminic Acid	269
+3.5	Itaconic Acid	269
+3.285	Glycyl-L-Glutamic Acid	269
+3.311	Glycogen	269
+3.5	D-Glucosaminic Acid	269
+2.812	Itaconic Acid	269
+3.29	Glycyl-L-Glutamic Acid	269
+3.307	D-Cellobiose	269
+3.305	Glucose-1-Phosphate	269
+2.3	a-Keto Butyric Acid	269
+2.487	Phenethylamine	269
+3.392	D-Cellobiose	269
+3.085	Glucose-1-Phosphate	269
+1.672	a-Keto Butyric Acid	269
+3.089	Phenethylamine	269
+3.439	D-Cellobiose	269
+3.212	Glucose-1-Phosphate	269
+2.405	a-Keto Butyric Acid	269
+2.269	Phenethylamine	269
+2.179	a-D-Lactose	269
+3.38	D,L-a-Glycerol Phosphate	269
+2.987	D-Malic Acid	269
+3.198	Putrescine	269
+2.286	a-D-Lactose	269
+2.576	D,L-a-Glycerol Phosphate	269
+2.411	D-Malic Acid	269
+2.582	Putrescine	269
+2.709	a-D-Lactose	269
+2.451	D,L-a-Glycerol Phosphate	269
+3.5	D-Malic Acid	269
+2.882	Putrescine	269
