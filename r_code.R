@@ -9,8 +9,8 @@ library(RColorBrewer)
 
 #read in metadata and asv table
 set.seed(515)
-asv_table <- read.delim("~/GitHub/Bullfrog-nutrient-enrichment/asv_table.txt", row.names=1, header=T)
-meta<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
+asv_table <- read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/asv_table.txt", row.names=1, header=T)
+meta<-read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
 
 #filter out chloroplast/mitochondria
 asv_table<-asv_table[-which(row.names(asv_table)=='180ed1cd4fafc390ffc300108ccf648e' | row.names(asv_table)=='7827defa226f025727dd0d1866cb5bba' | row.names(asv_table)=='94fc02cb626b227105e3b90cc5900802'),]
@@ -467,19 +467,25 @@ nut_bray<-merge(nut_bray, meta2, by='SampleID')
 
 #calculate beta dispersion for each
 beta_disp<-betadisper(but_bray, nut_bray$Type)
-beta<-as.data.frame(beta_disp$group.distances)
+beta<-as.data.frame(beta_disp$distances)
 beta$SampleID<-row.names(beta)
 names(beta)<-c('Beta_disp', 'SampleID')
-write.table(beta, '~/Documents/GitHub/Jliv/microbiome_data/beta_disp.txt', row.names=F, quote=F, sep='\t')
-beta<-read.delim('~/Documents/GitHub/Jliv/microbiome_data/beta_disp.txt', header=T)
+beta<-merge(beta, meta2, by='SampleID')
 
-ggplot(beta[which(beta$Amphib=='American Bullfrog'),], aes(as.numeric(Time2), Beta_disp, color=Jliv_strain))+
-  #facet_wrap(~Amphib)+
-  geom_line()+
-  geom_point(size=2.7)+
-  geom_vline(xintercept = 0, linetype="dotted", 
-             color = "purple", size=1.5)+
-  xlab("Time Point")+
-  coord_cartesian(xlim = c(-3,27))+
+
+write.table(beta, '~/Documents/GitHub/Bullfrog-nutrient-enrichment/beta_disp.txt', row.names=F, quote=F, sep='\t')
+beta<-read.delim('~/Documents/GitHub/Bullfrog-nutrient-enrichment/microbiome_data/beta_disp.txt', header=T)
+
+ggplot(beta, aes(Type, Beta_disp))+
+  geom_boxplot()+
+  xlab("")+
+  scale_color_manual(values=c('Orange', 'Blue'))+
   ylab("Beta Dispersion")+
   theme_bw()
+
+summary(aov(beta$Beta_disp ~ beta$Type))
+#             Df Sum Sq Mean Sq F value   Pr(>F)    
+#beta$Type    1 0.1051  0.1051   14.21 0.000529 ***
+#Residuals   40 0.2960  0.0074                     
+---
+
