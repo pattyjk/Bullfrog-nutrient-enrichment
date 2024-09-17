@@ -439,5 +439,47 @@ pairwise.t.test(ab_m$value, ab_m$Type2, p.adjust.method = 'hochberg')
 library(ggpubr)
 ggarrange(richness, pcoa, percent_inhib, shannon, pca, ab_dat, common.legend = T, legend='right')
 
-##########Spearman correlations for Ecoplate data
+####################beta dispersion
+set.seed(515)
+asv_table <- read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/asv_table.txt", row.names=1, header=T)
+meta<-read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
 
+#filter out chloroplast/mitochondria
+asv_table<-asv_table[-which(row.names(asv_table)=='180ed1cd4fafc390ffc300108ccf648e' | row.names(asv_table)=='7827defa226f025727dd0d1866cb5bba' | row.names(asv_table)=='94fc02cb626b227105e3b90cc5900802'),]
+
+#look at sequencing depth
+colSums(asv_table)
+#2573 is the lowest good depth, lose only 3 samples
+
+#rarefy data 
+nut_rare<-rrarefy(t(asv_table), sample=2573)
+
+#select only columns of interest for the metadata
+meta2<-meta[,c(1,4)]
+
+#calculate bray-curtis
+but_bray<-vegdist(nut_rare, method='bray')
+nut_bray<-as.data.frame(as.matrix(but_bray))
+nut_bray$SampleID<-row.names(nut_bray)
+
+#add meta to DM
+nut_bray<-merge(nut_bray, meta2, by='SampleID')
+
+#calculate beta dispersion for each
+beta_disp<-betadisper(but_bray, nut_bray$Type)
+beta<-as.data.frame(beta_disp$group.distances)
+beta$SampleID<-row.names(beta)
+names(beta)<-c('Beta_disp', 'SampleID')
+write.table(beta, '~/Documents/GitHub/Jliv/microbiome_data/beta_disp.txt', row.names=F, quote=F, sep='\t')
+beta<-read.delim('~/Documents/GitHub/Jliv/microbiome_data/beta_disp.txt', header=T)
+
+ggplot(beta[which(beta$Amphib=='American Bullfrog'),], aes(as.numeric(Time2), Beta_disp, color=Jliv_strain))+
+  #facet_wrap(~Amphib)+
+  geom_line()+
+  geom_point(size=2.7)+
+  geom_vline(xintercept = 0, linetype="dotted", 
+             color = "purple", size=1.5)+
+  xlab("Time Point")+
+  coord_cartesian(xlim = c(-3,27))+
+  ylab("Beta Dispersion")+
+  theme_bw()
