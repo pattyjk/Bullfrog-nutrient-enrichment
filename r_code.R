@@ -294,10 +294,10 @@ percent_inhib<-ggplot(inhib_tb2[-which(inhib_tb2$per_inhib2>50),], aes(Type, per
 
 
 
-###Calculate ASVs that respond (+/-) to n-enrichment
+########Calculate ASVs that respond (+/-) to n-enrichment
 #read in metadata and asv table
-asv_table <- read.delim("~/GitHub/Bullfrog-nutrient-enrichment/asv_table.txt", row.names=1, header=T)
-meta<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
+asv_table <- read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/asv_table.txt", row.names=1, header=T)
+meta<-read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
 
 #filter out chloroplast/mitochondria
 asv_table<-asv_table[-which(row.names(asv_table)=='180ed1cd4fafc390ffc300108ccf648e' | row.names(asv_table)=='7827defa226f025727dd0d1866cb5bba' | row.names(asv_table)=='94fc02cb626b227105e3b90cc5900802'),]
@@ -318,13 +318,16 @@ asv_m<-asv_m[,c(2,3,6)]
 
 #calculate kruskal-wallis to ID differential abundant taxa with Benjamini-hochberg corrected p-value
 library(ggpubr)
+set.seed(515)
 kruskal_results<-as.data.frame(compare_means(value ~ Type, group.by = 'OTU', p.adjust.method='fdr', method = 'kruskal.test', data=asv_m))
 length(which(kruskal_results$p.adj<0.01))
-#82 differentially abundant OTUs because of N-enrichment
+#101 differentially abundant OTUs because of N-enrichment
 
-#read in taxonomy data for each OTU & append to Kruskal-wallis results
-tax<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/taxonomy.tsv", header=T)
+#read in taxonomy and inihbitory data for each OTU & append to Kruskal-wallis results
+tax<-read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/taxonomy.tsv", header=T)
 kruskal_results<-merge(kruskal_results, tax, by.x='OTU', by.y='Feature.ID', all.y=F)
+inhibitory<-read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/bullfrog_out.txt", header=F)
+kruskal_results<-merge(kruskal_results, inhibitory, by.x='OTU', by.y='V1', all.y=F, all.x=T)
 
 #create a table of only significant OTUs
 sig_krusk<-kruskal_results[which(kruskal_results$p.adj<0.01),]
@@ -346,8 +349,8 @@ sig_krusk$rel_abun<-10*(sig_krusk$mean/2573)
 sig_krusk$se2<-sig_krusk$se/10
 
 #fix genus names
-write.table(sig_krusk, 'sig_krusk.txt', row.names=F, sep='\t', quote=F)
-sig_krusk <- read.delim("~/GitHub/Bullfrog-nutrient-enrichment/sig_krusk.txt")
+write.table(sig_krusk, '~/Documents/GitHub/Bullfrog-nutrient-enrichment/sig_krusk.txt', row.names=F, sep='\t', quote=F)
+sig_krusk <- read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/sig_krusk.txt")
 
 #plot mean abundance
 ggplot(sig_krusk, aes(Genus, rel_abun, color=Type))+
@@ -361,7 +364,7 @@ ggplot(sig_krusk, aes(Genus, rel_abun, color=Type))+
   xlab("")+
   geom_errorbar(aes(ymin=rel_abun-se2, ymax=rel_abun+se2, colour=Type), width=.2)
 
-  
+#heat map
 ggplot(sig_krusk, aes(Genus, Type, fill=rel_abun))+
   geom_tile()+
   coord_flip()+
@@ -369,6 +372,30 @@ ggplot(sig_krusk, aes(Genus, Type, fill=rel_abun))+
   ylab("")+
   theme_bw()+
   scale_fill_gradient2(low = "#075AFF", mid = "#FFFFCC", high = "#FF0000")
+
+#plot only known inhibitory taxa
+sig_inhib<-sig_krusk[!is.na(sig_krusk$V2),]
+
+dodge <- position_dodge(width=0.5) 
+ggplot(sig_inhib, aes(Genus, rel_abun, color=Type))+
+  geom_point(position = dodge)+
+  #facet_wrap(~Phylum)+
+  scale_color_manual(values = c('#f58231', '#4363d8'))+
+  theme_bw()+
+  coord_flip()+
+  ylab("Relative Abundance")+
+  #facet_wrap(~Phylum)+
+  xlab("")+
+  geom_errorbar(aes(ymin=rel_abun-se2, ymax=rel_abun+se2, colour=Type), width=.2, position=dodge)
+
+ggplot(sig_inhib, aes(Genus, Type, fill=rel_abun))+
+  geom_tile()+
+  coord_flip()+
+  xlab("")+
+  ylab("")+
+  theme_bw()+
+  scale_fill_gradient2(low = "#075AFF", mid = "#FFFFCC", high = "#FF0000")
+
 
 ##############
 #picrust data
