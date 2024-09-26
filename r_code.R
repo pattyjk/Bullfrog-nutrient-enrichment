@@ -69,8 +69,8 @@ ggplot(ko.coords, aes(MDS1, LogBd))+
 ###Calculate alpha diversity
 
 #load in asv table and metadata
-nut_enrich_asv_table<- read.delim("~/GitHub/Bullfrog-nutrient-enrichment/asv_table.txt", row.names=1, header=T)
-meta<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
+nut_enrich_asv_table<- read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/asv_table.txt", row.names=1, header=T)
+meta<-read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
 
 #CALCULATE RICHNESS & add metadata & statistics
 larv.alph<-as.data.frame(specnumber(rrarefy(t(nut_enrich_asv_table), sample=3000)))
@@ -132,8 +132,8 @@ ggplot(larv.alph, aes(Richness, Bd_load, color=Type))+
   stat_cor(method = "spearman", cor.coef.name="rho")
 ###############################################
 #analyze BioLog EcoPlate and metadata
-meta<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
-ecolog_data <- read.delim("~/GitHub/Bullfrog-nutrient-enrichment/ecolog_data_nowat.txt")
+meta<-read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
+ecolog_data <- read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/ecolog_data_nowat.txt")
 
 #calculate AWCD for each sample
 awcd<-as.data.frame(apply(ecolog_data[,-1],2,mean))
@@ -149,7 +149,7 @@ ggplot(awcd,aes(Type,`apply(ecolog_data[, -1], 2, mean)`, fill=Type))+
 
 #calculate Shannon Diversity
 library(vegan)
-ecolog_data <- read.delim("~/GitHub/Bullfrog-nutrient-enrichment/ecolog_data_nowat.txt", row.names=1)
+ecolog_data <- read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/ecolog_data_nowat.txt", row.names=1)
 eco_shan<-as.data.frame(vegan::diversity(t(ecolog_data)))
 eco_shan$Pond<-row.names(eco_shan)
 names(eco_shan)<-c("Shannon", "Pond")
@@ -193,7 +193,7 @@ ggdendrogram(hclust_avg,
   coord_flip()
 
 #calculate PCA
-ecolog_data <- read.delim("~/GitHub/Bullfrog-nutrient-enrichment/ecolog_data_nowat.txt", row.names=1)
+ecolog_data <- read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/ecolog_data_nowat.txt", row.names=1)
 nut_enrich_pca<-eco_pca<-prcomp(t(ecolog_data))
 pca_coords<-as.data.frame(nut_enrich_pca$x)
 pca_coords$SampleID<-row.names(pca_coords)
@@ -207,8 +207,8 @@ pca<-ggplot(pca_coords, aes(PC1, PC2, color=Type))+
 
 #plot carbon source development
 library(reshape2)
-meta<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
-ecolog_data <- read.delim("~/GitHub/Bullfrog-nutrient-enrichment/ecolog_data_nowat.txt")
+meta<-read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
+ecolog_data <- read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/ecolog_data_nowat.txt")
 eco_m<-melt(ecolog_data)
 eco_m<-merge(eco_m, meta, by.x='variable', by.y='Pond', all.x=T, all.y=F)
 
@@ -240,12 +240,12 @@ dim(kruk_inhib)
 #vsearch -usearch_global rep_seqs/dna-sequences.fasta -db antiBd_db/AmphibBac_Inhibitory_2023.2r.fasta --strand plus --id 0.99 --blast6out bullfrog_out.txt
 
 #read in results from vsearch clustering against AmphiBac database
-inhibitory<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/bullfrog_out.txt", header=F)
+inhibitory<-read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/bullfrog_out.txt", header=F)
 #ASVs are V1 in df
 
 #read in metadata and asv table
-asv_table <- read.delim("~/GitHub/Bullfrog-nutrient-enrichment/asv_table.txt", row.names=1, header=T)
-meta<-read.delim("~/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
+asv_table <- read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/asv_table.txt", row.names=1, header=T)
+meta<-read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/nut_enrich_16S_map.txt", header=T)
 
 #filter out chloroplast/mitochondria
 asv_table<-asv_table[-which(row.names(asv_table)=='180ed1cd4fafc390ffc300108ccf648e' | row.names(asv_table)=='7827defa226f025727dd0d1866cb5bba' | row.names(asv_table)=='94fc02cb626b227105e3b90cc5900802'),]
@@ -287,11 +287,6 @@ percent_inhib<-ggplot(inhib_tb2[-which(inhib_tb2$per_inhib2>50),], aes(Type, per
   coord_flip()+
   scale_fill_manual(values = c('#f58231', '#4363d8'))+
   ylab("Percent Inhibitory towards Bd")
-
-#calculate stats
-#t.test(as.numeric(inhib_tb2$per_inhib), inhib_tb2$Type)
-# 
-
 
 
 ########Calculate ASVs that respond (+/-) to n-enrichment
@@ -351,6 +346,8 @@ sig_krusk$se2<-sig_krusk$se/10
 #fix genus names
 write.table(sig_krusk, '~/Documents/GitHub/Bullfrog-nutrient-enrichment/sig_krusk.txt', row.names=F, sep='\t', quote=F)
 sig_krusk <- read.delim("~/Documents/GitHub/Bullfrog-nutrient-enrichment/sig_krusk.txt")
+sig_krusk$'Rel abundance' <- sig_krusk$rel_abun
+
 
 #plot mean abundance
 ggplot(sig_krusk, aes(Genus, rel_abun, color=Type))+
@@ -360,18 +357,19 @@ ggplot(sig_krusk, aes(Genus, rel_abun, color=Type))+
   theme_bw()+
   coord_flip()+
   ylab("Relative Abundance")+
-  #facet_wrap(~Phylum)+
-  xlab("")+
+  #facet_wrap(~Phylum)
   geom_errorbar(aes(ymin=rel_abun-se2, ymax=rel_abun+se2, colour=Type), width=.2)
 
 #heat map
-ggplot(sig_krusk, aes(Genus, Type, fill=rel_abun))+
+all_taxa<-ggplot(sig_krusk, aes(Genus, Type, fill=rel_abun))+
   geom_tile()+
   coord_flip()+
   xlab("")+
+  ggtitle("(A)- all sOTUs")+
+xlab("")+
   ylab("")+
   theme_bw()+
-  scale_fill_gradient2(low = "#075AFF", mid = "#FFFFCC", high = "#FF0000")
+  scale_fill_gradient(high = "green", low = "white")
 
 #plot only known inhibitory taxa
 sig_inhib<-sig_krusk[!is.na(sig_krusk$V2),]
@@ -388,13 +386,17 @@ ggplot(sig_inhib, aes(Genus, rel_abun, color=Type))+
   xlab("")+
   geom_errorbar(aes(ymin=rel_abun-se2, ymax=rel_abun+se2, colour=Type), width=.2, position=dodge)
 
-ggplot(sig_inhib, aes(Genus, Type, fill=rel_abun))+
+inhib_taxa<-ggplot(sig_inhib, aes(Genus, Type, fill=rel_abun))+
   geom_tile()+
   coord_flip()+
   xlab("")+
   ylab("")+
   theme_bw()+
-  scale_fill_gradient2(low = "#075AFF", mid = "#FFFFCC", high = "#FF0000")
+  ggtitle("(B)- Bd inhibitory sOTUs")+
+  scale_fill_gradient(high = "green", low = "white")
+
+#manuscript figure
+ggarrange(all_taxa, inhib_taxa)
 
 
 ##############
@@ -433,7 +435,7 @@ library(ggplot2)
 library(reshape2)
 
 #read in data
-ab_data<-read.delim('Bullfrog-nutrient-enrichment/ab_data.txt', header=T)
+ab_data<-read.delim('~/Documents/GitHub/Bullfrog-nutrient-enrichment/ab_data.txt', header=T)
 
 #reshape data for plotting
 ab_m<-melt(ab_data)
